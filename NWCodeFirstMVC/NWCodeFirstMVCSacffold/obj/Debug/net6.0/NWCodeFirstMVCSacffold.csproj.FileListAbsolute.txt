@@ -1,0 +1,14 @@
+C:\Practice\BackEnd\test\NWCodeFirstMVC\NWCodeFirstMVCSacffold\bin\Debug\net6.0\NWCodeFirstMVCSacffold.deps.json
+C:\Practice\BackEnd\test\NWCodeFirstMVC\NWCodeFirstMVCSacffold\bin\Debug\net6.0\NWCodeFirstMVCSacffold.runtimeconfig.json
+C:\Practice\BackEnd\test\NWCodeFirstMVC\NWCodeFirstMVCSacffold\bin\Debug\net6.0\NWCodeFirstMVCSacffold.dll
+C:\Practice\BackEnd\test\NWCodeFirstMVC\NWCodeFirstMVCSacffold\bin\Debug\net6.0\NWCodeFirstMVCSacffold.pdb
+C:\Practice\BackEnd\test\NWCodeFirstMVC\NWCodeFirstMVCSacffold\obj\Debug\net6.0\NWCodeFirstMVCSacffold.csproj.AssemblyReference.cache
+C:\Practice\BackEnd\test\NWCodeFirstMVC\NWCodeFirstMVCSacffold\obj\Debug\net6.0\NWCodeFirstMVCSacffold.GeneratedMSBuildEditorConfig.editorconfig
+C:\Practice\BackEnd\test\NWCodeFirstMVC\NWCodeFirstMVCSacffold\obj\Debug\net6.0\NWCodeFirstMVCSacffold.AssemblyInfoInputs.cache
+C:\Practice\BackEnd\test\NWCodeFirstMVC\NWCodeFirstMVCSacffold\obj\Debug\net6.0\NWCodeFirstMVCSacffold.AssemblyInfo.cs
+C:\Practice\BackEnd\test\NWCodeFirstMVC\NWCodeFirstMVCSacffold\obj\Debug\net6.0\NWCodeFirstMVCSacffold.csproj.CoreCompileInputs.cache
+C:\Practice\BackEnd\test\NWCodeFirstMVC\NWCodeFirstMVCSacffold\obj\Debug\net6.0\NWCodeFirstMVCSacffold.dll
+C:\Practice\BackEnd\test\NWCodeFirstMVC\NWCodeFirstMVCSacffold\obj\Debug\net6.0\refint\NWCodeFirstMVCSacffold.dll
+C:\Practice\BackEnd\test\NWCodeFirstMVC\NWCodeFirstMVCSacffold\obj\Debug\net6.0\NWCodeFirstMVCSacffold.pdb
+C:\Practice\BackEnd\test\NWCodeFirstMVC\NWCodeFirstMVCSacffold\obj\Debug\net6.0\NWCodeFirstMVCSacffold.genruntimeconfig.cache
+C:\Practice\BackEnd\test\NWCodeFirstMVC\NWCodeFirstMVCSacffold\obj\Debug\net6.0\ref\NWCodeFirstMVCSacffold.dll
