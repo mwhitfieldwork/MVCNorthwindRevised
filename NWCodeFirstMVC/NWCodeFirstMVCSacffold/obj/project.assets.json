@@ -2013,11 +2013,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Practice\\BackEnd\\test\\NWCodeFirstMVC\\NWCodeFirstMVCSacffold\\NWCodeFirstMVCSacffold.csproj",
+      "projectUniqueName": "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\NWCodeFirstMVC\\NWCodeFirstMVCSacffold\\NWCodeFirstMVCSacffold.csproj",
       "projectName": "NWCodeFirstMVCSacffold",
-      "projectPath": "C:\\Practice\\BackEnd\\test\\NWCodeFirstMVC\\NWCodeFirstMVCSacffold\\NWCodeFirstMVCSacffold.csproj",
+      "projectPath": "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\NWCodeFirstMVC\\NWCodeFirstMVCSacffold\\NWCodeFirstMVCSacffold.csproj",
       "packagesPath": "C:\\Users\\whitf\\.nuget\\packages\\",
-      "outputPath": "C:\\Practice\\BackEnd\\test\\NWCodeFirstMVC\\NWCodeFirstMVCSacffold\\obj\\",
+      "outputPath": "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\NWCodeFirstMVC\\NWCodeFirstMVCSacffold\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\whitf\\AppData\\Roaming\\NuGet\\NuGet.Config",

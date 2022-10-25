@@ -2038,11 +2038,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Practice\\BackEnd\\test\\NWCodeFirstMVC\\NWCodeFirstMVC\\NWCodeFirstMVC.csproj",
+      "projectUniqueName": "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\NWCodeFirstMVC\\NWCodeFirstMVC\\NWCodeFirstMVC.csproj",
       "projectName": "NWCodeFirstMVC",
-      "projectPath": "C:\\Practice\\BackEnd\\test\\NWCodeFirstMVC\\NWCodeFirstMVC\\NWCodeFirstMVC.csproj",
+      "projectPath": "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\NWCodeFirstMVC\\NWCodeFirstMVC\\NWCodeFirstMVC.csproj",
       "packagesPath": "C:\\Users\\whitf\\.nuget\\packages\\",
-      "outputPath": "C:\\Practice\\BackEnd\\test\\NWCodeFirstMVC\\NWCodeFirstMVC\\obj\\",
+      "outputPath": "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\NWCodeFirstMVC\\NWCodeFirstMVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\whitf\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2059,8 +2059,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Practice\\BackEnd\\test\\NWCodeFirstMVC\\NWCodeFirstMVCSacffold\\NWCodeFirstMVCSacffold.csproj": {
-              "projectPath": "C:\\Practice\\BackEnd\\test\\NWCodeFirstMVC\\NWCodeFirstMVCSacffold\\NWCodeFirstMVCSacffold.csproj"
+            "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\NWCodeFirstMVC\\NWCodeFirstMVCSacffold\\NWCodeFirstMVCSacffold.csproj": {
+              "projectPath": "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\NWCodeFirstMVC\\NWCodeFirstMVCSacffold\\NWCodeFirstMVCSacffold.csproj"
             }
           }
         }
