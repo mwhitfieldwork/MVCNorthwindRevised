@@ -79,7 +79,7 @@ namespace NWCodeFirstMVCSacffold.Models
             {
                 entity.HasIndex(e => e.CategoryName, "CategoryName");
 
-                entity.Property(e => e.CategoryId).HasColumnName("CategoryID");
+                entity.Property(e => e.CategoryID).HasColumnName("CategoryID");
 
                 entity.Property(e => e.CategoryName).HasMaxLength(15);
 

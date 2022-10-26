@@ -30,8 +30,16 @@ namespace NWCodeFirstMVC.Controllers
                 ReorderLevel = x.ReorderLevel,
                 Discontinued = x.Discontinued
             }).ToList();
-            
+
             return Json(results);
+        }
+
+        public ActionResult View()
+        {
+            Category model = new Category();
+            model.Initialize(_dc);
+
+            return View(model);
         }
     }
 }
