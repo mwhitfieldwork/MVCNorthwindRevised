@@ -27,6 +27,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Practice/BackEnd/NWCodeFirstMVC/NWCodeFirstMVC/NWCodeFirstMVC/Views/Products/ProductList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcUHJvZHVjdExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Practice/BackEnd/NWCodeFirstMVC/NWCodeFirstMVC/NWCodeFirstMVC/Views/Products/View.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcVmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

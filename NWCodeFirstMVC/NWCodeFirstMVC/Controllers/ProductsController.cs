@@ -34,6 +34,12 @@ namespace NWCodeFirstMVC.Controllers
             return Json(results);
         }
 
+        public ActionResult Index()
+        {
+            return View(_dc.Products.ToList());
+        }
+
+
         public ActionResult View()
         {
             Category model = new Category();
