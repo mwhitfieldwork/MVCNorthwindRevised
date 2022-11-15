@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace NWCodeFirstMVC.App.Contracts
 {
-    internal interface IProductService
+    public interface IProductService
     {
         JsonResult GetAllProducts();
     }
