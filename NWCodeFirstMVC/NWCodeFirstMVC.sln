@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.3.32929.385
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32929.386
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NWCodeFirstMVC", "NWCodeFirstMVC\NWCodeFirstMVC.csproj", "{FA051110-9FA0-4DBE-8D8F-0119D43C9DCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NWCodeFirstMVC", "NWCodeFirstMVC\NWCodeFirstMVC.csproj", "{FA051110-9FA0-4DBE-8D8F-0119D43C9DCB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NwCodeFirstMVC.Data", "NwCodeFirstMVC.Data\NwCodeFirstMVC.Data.csproj", "{6D8B0E4C-B5F8-44B3-A851-5E1B79924CC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NwCodeFirstMVC.Data", "NwCodeFirstMVC.Data\NwCodeFirstMVC.Data.csproj", "{6D8B0E4C-B5F8-44B3-A851-5E1B79924CC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NWCodeFirstMVCSacffold", "NWCodeFirstMVCSacffold\NWCodeFirstMVCSacffold.csproj", "{0AA95647-FAA5-4BE4-9E8B-C81BF17F858C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NWCodeFirstMVC.Domain", "NWCodeFirstMVC.Domain\NWCodeFirstMVC.Domain.csproj", "{0AA95647-FAA5-4BE4-9E8B-C81BF17F858C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

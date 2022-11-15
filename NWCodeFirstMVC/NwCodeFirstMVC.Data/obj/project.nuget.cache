@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xTcDiNmJh7TPCfmxr1OZLZKHOK8RQT1R63BnNs67iNEI70VnF7sX/Nc9iD1L9FXiZteRSdPcB/vYGPvAYIO5/Q==",
+  "dgSpecHash": "VVbahDcIe7nSKLuw2kIpFC7FXtIi82eYoUwESY5j6K99ilrPT7cJc0fG4KGV+KRRMukJE17PD94nSgWZj5IC5g==",
   "success": true,
-  "projectFilePath": "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\NWCodeFirstMVC\\NwCodeFirstMVC.Data\\NwCodeFirstMVC.Data.csproj",
+  "projectFilePath": "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NwCodeFirstMVC.Data\\NwCodeFirstMVC.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\whitf\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\whitf\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\NWCodeFirstMVC\\NwCodeFirstMVC.Data\\NwCodeFirstMVC.Data.csproj": {}
+    "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NwCodeFirstMVC.Data\\NwCodeFirstMVC.Data.csproj": {}
   },
   "projects": {
-    "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\NWCodeFirstMVC\\NwCodeFirstMVC.Data\\NwCodeFirstMVC.Data.csproj": {
+    "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NwCodeFirstMVC.Data\\NwCodeFirstMVC.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\NWCodeFirstMVC\\NwCodeFirstMVC.Data\\NwCodeFirstMVC.Data.csproj",
+        "projectUniqueName": "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NwCodeFirstMVC.Data\\NwCodeFirstMVC.Data.csproj",
         "projectName": "NwCodeFirstMVC.Data",
-        "projectPath": "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\NWCodeFirstMVC\\NwCodeFirstMVC.Data\\NwCodeFirstMVC.Data.csproj",
+        "projectPath": "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NwCodeFirstMVC.Data\\NwCodeFirstMVC.Data.csproj",
         "packagesPath": "C:\\Users\\whitf\\.nuget\\packages\\",
-        "outputPath": "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\NWCodeFirstMVC\\NwCodeFirstMVC.Data\\obj\\",
+        "outputPath": "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NwCodeFirstMVC.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\whitf\\AppData\\Roaming\\NuGet\\NuGet.Config",

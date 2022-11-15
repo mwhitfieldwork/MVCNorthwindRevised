@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\NWCodeFirstMVC\\NWCodeFirstMVC\\NWCodeFirstMVC.csproj": {}
+    "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC\\NWCodeFirstMVC.csproj": {}
   },
   "projects": {
-    "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\NWCodeFirstMVC\\NWCodeFirstMVCSacffold\\NWCodeFirstMVCSacffold.csproj": {
+    "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Domain\\NWCodeFirstMVC.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\NWCodeFirstMVC\\NWCodeFirstMVCSacffold\\NWCodeFirstMVCSacffold.csproj",
-        "projectName": "NWCodeFirstMVCSacffold",
-        "projectPath": "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\NWCodeFirstMVC\\NWCodeFirstMVCSacffold\\NWCodeFirstMVCSacffold.csproj",
+        "projectUniqueName": "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Domain\\NWCodeFirstMVC.Domain.csproj",
+        "projectName": "NWCodeFirstMVC.Domain",
+        "projectPath": "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Domain\\NWCodeFirstMVC.Domain.csproj",
         "packagesPath": "C:\\Users\\whitf\\.nuget\\packages\\",
-        "outputPath": "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\NWCodeFirstMVC\\NWCodeFirstMVCSacffold\\obj\\",
+        "outputPath": "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\whitf\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,9 +40,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.AspNet.Mvc": {
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
               "target": "Package",
-              "version": "[5.2.9, )"
+              "version": "[2.2.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -79,14 +79,14 @@
         }
       }
     },
-    "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\NWCodeFirstMVC\\NWCodeFirstMVC\\NWCodeFirstMVC.csproj": {
+    "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC\\NWCodeFirstMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\NWCodeFirstMVC\\NWCodeFirstMVC\\NWCodeFirstMVC.csproj",
+        "projectUniqueName": "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC\\NWCodeFirstMVC.csproj",
         "projectName": "NWCodeFirstMVC",
-        "projectPath": "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\NWCodeFirstMVC\\NWCodeFirstMVC\\NWCodeFirstMVC.csproj",
+        "projectPath": "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC\\NWCodeFirstMVC.csproj",
         "packagesPath": "C:\\Users\\whitf\\.nuget\\packages\\",
-        "outputPath": "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\NWCodeFirstMVC\\NWCodeFirstMVC\\obj\\",
+        "outputPath": "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\whitf\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -103,8 +103,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\NWCodeFirstMVC\\NWCodeFirstMVCSacffold\\NWCodeFirstMVCSacffold.csproj": {
-                "projectPath": "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\NWCodeFirstMVC\\NWCodeFirstMVCSacffold\\NWCodeFirstMVCSacffold.csproj"
+              "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Domain\\NWCodeFirstMVC.Domain.csproj": {
+                "projectPath": "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Domain\\NWCodeFirstMVC.Domain.csproj"
               }
             }
           }
