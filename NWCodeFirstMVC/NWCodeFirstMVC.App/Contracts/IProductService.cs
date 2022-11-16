@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using NWCodeFirstMVCSacffold.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,6 @@ namespace NWCodeFirstMVC.App.Contracts
 {
     public interface IProductService
     {
-        JsonResult GetAllProducts();
+        List<Product> GetAllProduct();
     }
 }

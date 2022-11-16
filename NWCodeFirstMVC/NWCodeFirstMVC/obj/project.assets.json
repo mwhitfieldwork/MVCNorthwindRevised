@@ -363,7 +363,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Mvc.Core/2.2.0": {
+      "Microsoft.AspNetCore.Mvc.Core/2.2.5": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.Core": "2.2.0",
@@ -4157,6 +4157,23 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "NWCodeFirstMVC.App/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
+          "NWCodeFirstMVC.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NWCodeFirstMVC.App.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NWCodeFirstMVC.App.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "NWCodeFirstMVC.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -4171,6 +4188,26 @@
         "runtime": {
           "bin/placeholder/NWCodeFirstMVC.Domain.dll": {}
         }
+      },
+      "NWCodeFirstMVC.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.10",
+          "NWCodeFirstMVC.App": "1.0.0",
+          "NWCodeFirstMVC.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NWCodeFirstMVC.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NWCodeFirstMVC.Infrastructure.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -4471,16 +4508,16 @@
         "microsoft.aspnetcore.mvc.abstractions.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Mvc.Core/2.2.0": {
-      "sha512": "ALiY4a6BYsghw8PT5+VU593Kqp911U3w9f/dH9/ZoI3ezDsDAGiObqPu/HP1oXK80Ceu0XdQ3F0bx5AXBeuN/Q==",
+    "Microsoft.AspNetCore.Mvc.Core/2.2.5": {
+      "sha512": "/8sr8ixIUD57UFwUntha9bOwex7/AkZfdk1f9oNJG1Ek7p/uuKVa7fuHmYZpQOf35Oxrt+2Ku4WPwMSbNxOuWg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.mvc.core/2.2.0",
+      "path": "microsoft.aspnetcore.mvc.core/2.2.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Core.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Core.xml",
-        "microsoft.aspnetcore.mvc.core.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.mvc.core.2.2.5.nupkg.sha512",
         "microsoft.aspnetcore.mvc.core.nuspec"
       ]
     },
@@ -11237,10 +11274,20 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "NWCodeFirstMVC.App/1.0.0": {
+      "type": "project",
+      "path": "../NWCodeFirstMVC.App/NWCodeFirstMVC.App.csproj",
+      "msbuildProject": "../NWCodeFirstMVC.App/NWCodeFirstMVC.App.csproj"
+    },
     "NWCodeFirstMVC.Domain/1.0.0": {
       "type": "project",
       "path": "../NWCodeFirstMVC.Domain/NWCodeFirstMVC.Domain.csproj",
       "msbuildProject": "../NWCodeFirstMVC.Domain/NWCodeFirstMVC.Domain.csproj"
+    },
+    "NWCodeFirstMVC.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../NWCodeFirstMVC.Infrastructure/NWCodeFirstMVC.Infrastructure.csproj",
+      "msbuildProject": "../NWCodeFirstMVC.Infrastructure/NWCodeFirstMVC.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -11250,7 +11297,9 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.10",
-      "NWCodeFirstMVC.Domain >= 1.0.0"
+      "NWCodeFirstMVC.App >= 1.0.0",
+      "NWCodeFirstMVC.Domain >= 1.0.0",
+      "NWCodeFirstMVC.Infrastructure >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -11280,8 +11329,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.App\\NWCodeFirstMVC.App.csproj": {
+              "projectPath": "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.App\\NWCodeFirstMVC.App.csproj"
+            },
             "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Domain\\NWCodeFirstMVC.Domain.csproj": {
               "projectPath": "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Domain\\NWCodeFirstMVC.Domain.csproj"
+            },
+            "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Infrastructure\\NWCodeFirstMVC.Infrastructure.csproj": {
+              "projectPath": "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Infrastructure\\NWCodeFirstMVC.Infrastructure.csproj"
             }
           }
         }

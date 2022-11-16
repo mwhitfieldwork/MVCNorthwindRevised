@@ -6,10 +6,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace NWCodeFirstMVC.Infrastructure.Services
 {
-    public class ProductService: Controller, IProductService
+    public class ProductService:IProductService
     {
 
         private readonly northwindContext _dc;
@@ -19,15 +20,15 @@ namespace NWCodeFirstMVC.Infrastructure.Services
             _dc = dc;
         }
 
-        [HttpGet]
-        public JsonResult GetAllProducts()
+        
+        public List<Product> GetAllProduct()
         {
             IQueryable<Product> products = _dc.Products;
 
             var results = products.Select(x =>
-            new
+            new Product
             {
-                productId = x.ProductId,
+                ProductId = x.ProductId,
                 ProductName = x.ProductName,
                 SupplierId = x.SupplierId,
                 CategoryId = x.CategoryId,
@@ -39,7 +40,7 @@ namespace NWCodeFirstMVC.Infrastructure.Services
                 Discontinued = x.Discontinued
             }).ToList();
 
-            return Json(results);
+            return results;
         }
     }
 }
