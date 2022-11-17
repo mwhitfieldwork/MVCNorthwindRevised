@@ -21,7 +21,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\NWCodeFirstMVC.App\NWCodeFirstMVC.App.csproj" />
     <ProjectReference Include="..\NWCodeFirstMVC.Domain\NWCodeFirstMVC.Domain.csproj" />
+    <ProjectReference Include="..\NWCodeFirstMVC.Infrastructure\NWCodeFirstMVC.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

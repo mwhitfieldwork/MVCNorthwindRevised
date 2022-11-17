@@ -605,3 +605,8 @@ C:\Practice\BackEnd\NWCodeFirstMVC\CodeFirstMVCNorthwind\NWCodeFirstMVC\NWCodeFi
 C:\Practice\BackEnd\NWCodeFirstMVC\CodeFirstMVCNorthwind\NWCodeFirstMVC\NWCodeFirstMVC\obj\Debug\net6.0\NWCodeFirstMVC.pdb
 C:\Practice\BackEnd\NWCodeFirstMVC\CodeFirstMVCNorthwind\NWCodeFirstMVC\NWCodeFirstMVC\obj\Debug\net6.0\NWCodeFirstMVC.genruntimeconfig.cache
 C:\Practice\BackEnd\NWCodeFirstMVC\CodeFirstMVCNorthwind\NWCodeFirstMVC\NWCodeFirstMVC\obj\Debug\net6.0\ref\NWCodeFirstMVC.dll
+C:\Practice\BackEnd\NWCodeFirstMVC\CodeFirstMVCNorthwind\NWCodeFirstMVC\NWCodeFirstMVC\bin\Debug\net6.0\NWCodeFirstMVC.App.dll
+C:\Practice\BackEnd\NWCodeFirstMVC\CodeFirstMVCNorthwind\NWCodeFirstMVC\NWCodeFirstMVC\bin\Debug\net6.0\NWCodeFirstMVC.App.pdb
+C:\Practice\BackEnd\NWCodeFirstMVC\CodeFirstMVCNorthwind\NWCodeFirstMVC\NWCodeFirstMVC\obj\Debug\net6.0\NWCodeFirstMVC.MvcApplicationPartsAssemblyInfo.cs
+C:\Practice\BackEnd\NWCodeFirstMVC\CodeFirstMVCNorthwind\NWCodeFirstMVC\NWCodeFirstMVC\bin\Debug\net6.0\NWCodeFirstMVC.Infrastructure.dll
+C:\Practice\BackEnd\NWCodeFirstMVC\CodeFirstMVCNorthwind\NWCodeFirstMVC\NWCodeFirstMVC\bin\Debug\net6.0\NWCodeFirstMVC.Infrastructure.pdb

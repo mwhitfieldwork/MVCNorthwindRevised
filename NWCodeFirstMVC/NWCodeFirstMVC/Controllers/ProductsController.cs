@@ -11,28 +11,28 @@ namespace NWCodeFirstMVC.Controllers
             _dc = dc;
         }
 
-        [HttpGet]
-        public JsonResult GetAllProducts()
-        {
-            IQueryable<Product> products = _dc.Products;
+        //[HttpGet]
+        //public JsonResult GetAllProducts()
+        //{
+        //    IQueryable<Product> products = _dc.Products;
 
-            var results = products.Select(x =>
-            new
-            {
-                productId = x.ProductId,
-                ProductName = x.ProductName,
-                SupplierId = x.SupplierId,
-                CategoryId = x.CategoryId,
-                QuantityPerUnit = x.QuantityPerUnit,
-                UnitPrice = x.UnitPrice,
-                UnitsInStock = x.UnitsInStock,
-                UnitsOnOrder = x.UnitsOnOrder,
-                ReorderLevel = x.ReorderLevel,
-                Discontinued = x.Discontinued
-            }).ToList();
+        //    var results = products.Select(x =>
+        //    new
+        //    {
+        //        productId = x.ProductId,
+        //        ProductName = x.ProductName,
+        //        SupplierId = x.SupplierId,
+        //        CategoryId = x.CategoryId,
+        //        QuantityPerUnit = x.QuantityPerUnit,
+        //        UnitPrice = x.UnitPrice,
+        //        UnitsInStock = x.UnitsInStock,
+        //        UnitsOnOrder = x.UnitsOnOrder,
+        //        ReorderLevel = x.ReorderLevel,
+        //        Discontinued = x.Discontinued
+        //    }).ToList();
 
-            return Json(results);
-        }
+        //    return Json(results);
+        //}
 
         public ActionResult Index()
         {
