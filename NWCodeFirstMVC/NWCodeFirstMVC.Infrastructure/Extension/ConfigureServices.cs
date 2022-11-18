@@ -13,6 +13,7 @@ namespace NWCodeFirstMVC.Infrastructure.Extension
     {
         public static IServiceCollection ConfigureService(this IServiceCollection services)
         {
+            //sets the service as the intermediary for the interface
             services.AddScoped<IProductService, ProductService>();
 
             return services;
