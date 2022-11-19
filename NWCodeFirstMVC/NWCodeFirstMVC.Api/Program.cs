@@ -15,6 +15,14 @@ builder.Services.AddDbContext<northwindContext>(opt =>
     var connectionString = configuration.GetConnectionString("Default");
     opt.UseSqlServer(connectionString);
 });
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", 
+        b=> b.AllowAnyHeader()
+        .AllowAnyOrigin()
+        .AllowAnyMethod());
+});
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddSwaggerGen();
@@ -29,6 +37,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseCors("AllowAll");
 app.UseRouting();
 app.UseAuthorization();
 
