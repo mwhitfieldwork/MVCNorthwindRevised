@@ -11,5 +11,7 @@ namespace NWCodeFirstMVC.App.Contracts
     public interface IProductService
     {
         List<Product> GetAllProduct();
+
+        List<Product> GetLuxuryUSProduct();
     }
 }

@@ -22,5 +22,13 @@ namespace NWCodeFirstMVC.Api.Controllers
         {
             return Ok(_productService.GetAllProduct());
         }
+
+        [HttpGet("GetLuxUsProd")]
+        public IActionResult GetLuxuryUSProduct() //IActionResult returns the json data
+        {
+            //returning a response ( ok, 404, ect) 
+            // use the inteface which is used a  service
+            return Ok(_productService.GetLuxuryUSProduct()); 
+        }
     }
 }

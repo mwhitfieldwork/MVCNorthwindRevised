@@ -9,7 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IProductService, ProductService>();
 
-builder.Services.AddDbContext<northwindContext>(opt =>
+builder.Services.AddDbContext<northwindContext>(opt => // needed  to bring the northwind db into the project
 {
     var configuration = builder.Configuration;
     var connectionString = configuration.GetConnectionString("Default");
