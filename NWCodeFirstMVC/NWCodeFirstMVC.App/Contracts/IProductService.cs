@@ -13,5 +13,7 @@ namespace NWCodeFirstMVC.App.Contracts
         List<Product> GetAllProduct();
 
         List<Product> GetLuxuryUSProduct();
+
+        Product AddProduct(Product product);
     }
 }

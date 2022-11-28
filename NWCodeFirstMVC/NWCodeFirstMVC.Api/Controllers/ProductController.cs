@@ -30,5 +30,12 @@ namespace NWCodeFirstMVC.Api.Controllers
             // use the inteface which is used a  service
             return Ok(_productService.GetLuxuryUSProduct()); 
         }
+
+        [HttpPost("AddProduct")]
+        public ActionResult AddProduct(Product product)
+        {
+            var results = _productService.AddProduct(product);
+            return CreatedAtAction("GetAllProduct", new { ProductId = product.ProductId }, product);
+        }
     }
 }

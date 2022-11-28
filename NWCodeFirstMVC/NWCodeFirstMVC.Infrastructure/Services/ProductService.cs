@@ -26,7 +26,8 @@ namespace NWCodeFirstMVC.Infrastructure.Services
             _dc = dc;
         }
 
-        
+
+
         public List<Product> GetAllProduct()
         {
             IQueryable<Product> products = _dc.Products;
@@ -60,6 +61,14 @@ namespace NWCodeFirstMVC.Infrastructure.Services
                             // What about defining a new object based on the join?
 
             return luxproduct;
+        }
+        public Product AddProduct(Product product)
+        {
+            _dc.Products.Add(product);
+            _dc.SaveChanges();
+
+            return product;
+
         }
     }
 }
