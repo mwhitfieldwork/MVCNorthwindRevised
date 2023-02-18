@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using NWCodeFirstMVC.App.Contracts;
 using NWCodeFirstMVCSacffold.Models;
 
@@ -11,19 +12,22 @@ namespace NWCodeFirstMVC.Api.Controllers
     public class ProductController : ControllerBase
     {
         private readonly IProductService _productService;
+        private readonly northwindContext _dc;
 
-        public ProductController(IProductService productService)
+
+        public ProductController(IProductService productService, northwindContext dc)
         {
             _productService = productService;
+            _dc = dc;
         }
 
-        [HttpGet("GetAllProd")]
+        [HttpGet]
         public IActionResult GetAllProduct()
         {
             return Ok(_productService.GetAllProduct());
         }
 
-        [HttpGet("GetProd/{id:int}")]
+        [HttpGet("{id}")]
         public IActionResult GetAProduct(int id)
         {
             var product = _productService.GetProduct(id);
@@ -50,7 +54,9 @@ namespace NWCodeFirstMVC.Api.Controllers
         {
             //returning a response ( ok, 404, ect) 
             // use the inteface which is used a  service
-            return Ok(_productService.GetProductWithHighQuantityOrders());
+            var results = _productService.GetProductWithHighQuantityOrders();
+
+            return Ok(results);
         }
 
         [HttpPost("AddProduct")]
@@ -58,6 +64,36 @@ namespace NWCodeFirstMVC.Api.Controllers
         {
             var results = _productService.AddProduct(product);
             return CreatedAtAction("GetAllProduct", new { ProductId = product.ProductId }, product);
+        }
+
+        [HttpPut("{id}")]
+        public ActionResult UpdateProduct(int id, Product product)
+        {
+            if(id != product.ProductId)
+            {
+                return BadRequest("Invalid ID");
+            }
+
+            _dc.Entry(product).State = EntityState.Modified;
+
+            try
+            {
+                _dc.SaveChanges();
+            }
+            catch(DbUpdateConcurrencyException)
+            {
+                if(product.ProductId != id)
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+                   
+            }
+
+            return NoContent();
         }
     }
 }

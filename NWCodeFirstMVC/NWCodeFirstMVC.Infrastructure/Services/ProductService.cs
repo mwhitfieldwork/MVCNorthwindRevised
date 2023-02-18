@@ -73,6 +73,7 @@ namespace NWCodeFirstMVC.Infrastructure.Services
 
         public List<Product> GetProductWithHighQuantityOrders()
         {
+            //ask why this is not returning a simple json response
             var prodorders = _dc.Products.Where(y => y.ProductId == 11).Include(x => x.OrderDetails.Where(o => o.Quantity == 30)).ToList();
 
             return prodorders;
@@ -86,6 +87,10 @@ namespace NWCodeFirstMVC.Infrastructure.Services
 
             return product;
 
+        }
+
+        public void UpdateProduct(int id, Product product)
+        {
         }
     }
 }

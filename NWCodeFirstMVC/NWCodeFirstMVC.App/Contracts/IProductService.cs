@@ -18,6 +18,8 @@ namespace NWCodeFirstMVC.App.Contracts
 
         List<Product> GetProductWithHighQuantityOrders();
 
+        void UpdateProduct(int id, Product product);
+
         Product AddProduct(Product product);
     }
 }
