@@ -17,11 +17,25 @@ namespace NWCodeFirstMVC.Api.Controllers
             _productService = productService;
         }
 
-        [HttpGet("GetProd")]
+        [HttpGet("GetAllProd")]
         public IActionResult GetAllProduct()
         {
             return Ok(_productService.GetAllProduct());
         }
+
+        [HttpGet("GetProd/{id:int}")]
+        public IActionResult GetAProduct(int id)
+        {
+            var product = _productService.GetProduct(id);
+
+            if (product == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(product);
+        }
+
 
         [HttpGet("GetLuxUsProd")]
         public IActionResult GetLuxuryUSProduct() //IActionResult returns the json data
@@ -29,6 +43,14 @@ namespace NWCodeFirstMVC.Api.Controllers
             //returning a response ( ok, 404, ect) 
             // use the inteface which is used a  service
             return Ok(_productService.GetLuxuryUSProduct()); 
+        }
+
+        [HttpGet("GetProdOrders")]
+        public IActionResult GetProdOrders() //IActionResult returns the json data
+        {
+            //returning a response ( ok, 404, ect) 
+            // use the inteface which is used a  service
+            return Ok(_productService.GetProductWithHighQuantityOrders());
         }
 
         [HttpPost("AddProduct")]

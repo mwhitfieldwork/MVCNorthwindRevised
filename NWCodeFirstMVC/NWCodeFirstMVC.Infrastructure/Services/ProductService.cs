@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
+using Microsoft.EntityFrameworkCore;
 
 namespace NWCodeFirstMVC.Infrastructure.Services
 {    
@@ -51,6 +52,14 @@ namespace NWCodeFirstMVC.Infrastructure.Services
         }
 
 
+        public Product GetProduct(int id)
+        {
+            var product = _dc.Products.Where(x => x.ProductId == id).FirstOrDefault();
+
+            return product;
+        }
+
+
         public List<Product> GetLuxuryUSProduct()
         {
             List<Product> luxproduct = _dc.Products.Join(_dc.Suppliers,
@@ -58,10 +67,18 @@ namespace NWCodeFirstMVC.Infrastructure.Services
                               y => y.SupplierId,
                               (x, y) => new { Product = x, Supplier = y })
                            .Where(z => z.Product.UnitPrice > 10 && z.Supplier.Country == "USA").Select(x => x.Product).ToList();
-                            // What about defining a new object based on the join?
 
             return luxproduct;
         }
+
+        public List<Product> GetProductWithHighQuantityOrders()
+        {
+            var prodorders = _dc.Products.Where(y => y.ProductId == 11).Include(x => x.OrderDetails.Where(o => o.Quantity == 30)).ToList();
+
+            return prodorders;
+        }
+
+
         public Product AddProduct(Product product)
         {
             _dc.Products.Add(product);
