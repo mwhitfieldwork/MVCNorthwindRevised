@@ -95,5 +95,22 @@ namespace NWCodeFirstMVC.Api.Controllers
 
             return NoContent();
         }
+
+        [HttpDelete("{id}")]
+        public ActionResult DeleteProduct(int id)
+        {
+            var product = _dc.Products.Find(id);
+
+            if(product == null)
+            {
+                return NotFound();
+            }
+
+            _dc.Products.Remove(product);
+            _dc.SaveChanges();
+
+            return NoContent();
+
+        }
     }
 }
