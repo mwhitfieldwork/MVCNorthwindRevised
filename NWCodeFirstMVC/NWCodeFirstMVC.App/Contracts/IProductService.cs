@@ -12,7 +12,13 @@ namespace NWCodeFirstMVC.App.Contracts
     {
         List<Product> GetAllProduct();
 
+        Product GetProduct(int id);
+
         List<Product> GetLuxuryUSProduct();
+
+        List<Product> GetProductWithHighQuantityOrders();
+
+        void UpdateProduct(int id, Product product);
 
         Product AddProduct(Product product);
     }

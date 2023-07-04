@@ -505,6 +505,8 @@ namespace NWCodeFirstMVCSacffold.Models
 
                 entity.HasIndex(e => e.SupplierId, "SuppliersProducts");
 
+                entity.Property(e => e.IsDeleted).HasColumnName("isDeleted");
+
                 entity.Property(e => e.ProductId).HasColumnName("ProductID");
 
                 entity.Property(e => e.CategoryId).HasColumnName("CategoryID");
