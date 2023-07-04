@@ -271,3 +271,8 @@ C:\Practice\BackEnd\NWCodeFirstMVC\CodeFirstMVCNorthwind\NWCodeFirstMVC\NWCodeFi
 C:\Practice\BackEnd\NWCodeFirstMVC\CodeFirstMVCNorthwind\NWCodeFirstMVC\NWCodeFirstMVC.Api\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Practice\BackEnd\NWCodeFirstMVC\CodeFirstMVCNorthwind\NWCodeFirstMVC\NWCodeFirstMVC.Api\bin\Debug\net6.0\NWCodeFirstMVC.Infrastructure.dll
 C:\Practice\BackEnd\NWCodeFirstMVC\CodeFirstMVCNorthwind\NWCodeFirstMVC\NWCodeFirstMVC.Api\bin\Debug\net6.0\NWCodeFirstMVC.Infrastructure.pdb
+C:\Practice\BackEnd\NWCodeFirstMVC\CodeFirstMVCNorthwind\NWCodeFirstMVC\NWCodeFirstMVC.Api\obj\Debug\net6.0\staticwebassets\msbuild.NWCodeFirstMVC.Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Practice\BackEnd\NWCodeFirstMVC\CodeFirstMVCNorthwind\NWCodeFirstMVC\NWCodeFirstMVC.Api\obj\Debug\net6.0\staticwebassets\msbuild.build.NWCodeFirstMVC.Api.props
+C:\Practice\BackEnd\NWCodeFirstMVC\CodeFirstMVCNorthwind\NWCodeFirstMVC\NWCodeFirstMVC.Api\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.NWCodeFirstMVC.Api.props
+C:\Practice\BackEnd\NWCodeFirstMVC\CodeFirstMVCNorthwind\NWCodeFirstMVC\NWCodeFirstMVC.Api\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.NWCodeFirstMVC.Api.props
+C:\Practice\BackEnd\NWCodeFirstMVC\CodeFirstMVCNorthwind\NWCodeFirstMVC\NWCodeFirstMVC.Api\obj\Debug\net6.0\staticwebassets.pack.json
