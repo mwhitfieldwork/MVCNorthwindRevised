@@ -1,10 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Data.Common;
 
-namespace NWCodeFirstMVCSacffold.Models
+namespace NWCodeFirstMVC.Domain.Models
 {
     public partial class Product
     {
@@ -24,9 +21,9 @@ namespace NWCodeFirstMVCSacffold.Models
         public short? ReorderLevel { get; set; }
         public bool Discontinued { get; set; }
         public bool IsDeleted { get; set; }
+
         public virtual Category? Category { get; set; }
         public virtual Supplier? Supplier { get; set; }
         public virtual ICollection<OrderDetail> OrderDetails { get; set; }
-
     }
 }

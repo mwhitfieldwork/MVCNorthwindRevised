@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace NWCodeFirstMVCSacffold.Models
+namespace NWCodeFirstMVC.Domain.Models
 {
     public partial class SummaryOfSalesByYear
     {

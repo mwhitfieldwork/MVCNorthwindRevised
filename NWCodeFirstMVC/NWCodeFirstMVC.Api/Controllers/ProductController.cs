@@ -2,7 +2,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NWCodeFirstMVC.App.Contracts;
-using NWCodeFirstMVCSacffold.Models;
+using NWCodeFirstMVC.Domain;
+using NWCodeFirstMVC.Domain.Models;
 
 namespace NWCodeFirstMVC.Api.Controllers
 {

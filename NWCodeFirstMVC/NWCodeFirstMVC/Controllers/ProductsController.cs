@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using NWCodeFirstMVCSacffold.Models;
+using NWCodeFirstMVC.Domain;
+using NWCodeFirstMVC.Domain.Models;
 
 namespace NWCodeFirstMVC.Controllers
 {
@@ -43,7 +44,7 @@ namespace NWCodeFirstMVC.Controllers
         public ActionResult View()
         {
             Category model = new Category();
-            model.Initialize(_dc);
+            //model.Initialize(_dc);
 
             return View(model); 
         }
