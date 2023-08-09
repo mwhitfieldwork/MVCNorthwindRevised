@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using NWCodeFirstMVCSacffold.Models;
+using NWCodeFirstMVC.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

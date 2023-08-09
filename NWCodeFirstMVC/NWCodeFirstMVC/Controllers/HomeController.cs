@@ -1,9 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using NWCodeFirstMVC.Models;
-using NWCodeFirstMVCSacffold.Models;
+using NWCodeFirstMVC.Domain.Models;
 using System.Diagnostics;
-
-
+using NWCodeFirstMVC.Domain;
 
 namespace NWCodeFirstMVC.Controllers
 {

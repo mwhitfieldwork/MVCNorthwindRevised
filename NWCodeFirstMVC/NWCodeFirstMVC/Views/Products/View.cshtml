@@ -1,4 +1,4 @@
-﻿@model NWCodeFirstMVCSacffold.Models.Category
+﻿@model NWCodeFirstMVC.Domain.Models.Category
 @{
     ViewData["Title"] = "View";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -7,6 +7,6 @@
 <h1>View</h1>
 
 <div>
-    @Html.DropDownListFor(m => m.categories, new SelectList(Model.categoryList, "Value", "Text"))
+    @*@Html.DropDownListFor(m => m.categories, new SelectList(Model.categoryList, "Value", "Text"))*@
 </div>
 
