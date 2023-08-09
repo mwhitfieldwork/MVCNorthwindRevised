@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace NWCodeFirstMVCSacffold.Models
+namespace NWCodeFirstMVC.Domain.Models
 {
     public partial class northwindContext : DbContext
     {
@@ -11,7 +11,8 @@ namespace NWCodeFirstMVCSacffold.Models
         {
         }
 
-        public northwindContext(DbContextOptions<northwindContext> options): base(options)
+        public northwindContext(DbContextOptions<northwindContext> options)
+            : base(options)
         {
         }
 
@@ -79,11 +80,13 @@ namespace NWCodeFirstMVCSacffold.Models
             {
                 entity.HasIndex(e => e.CategoryName, "CategoryName");
 
-                entity.Property(e => e.CategoryID).HasColumnName("CategoryID");
+                entity.Property(e => e.CategoryId).HasColumnName("CategoryID");
 
                 entity.Property(e => e.CategoryName).HasMaxLength(15);
 
                 entity.Property(e => e.Description).HasColumnType("ntext");
+
+                entity.Property(e => e.IsDeleted).HasColumnName("isDeleted");
 
                 entity.Property(e => e.Picture).HasColumnType("image");
             });
@@ -505,11 +508,11 @@ namespace NWCodeFirstMVCSacffold.Models
 
                 entity.HasIndex(e => e.SupplierId, "SuppliersProducts");
 
-                entity.Property(e => e.IsDeleted).HasColumnName("isDeleted");
-
                 entity.Property(e => e.ProductId).HasColumnName("ProductID");
 
                 entity.Property(e => e.CategoryId).HasColumnName("CategoryID");
+
+                entity.Property(e => e.IsDeleted).HasColumnName("isDeleted");
 
                 entity.Property(e => e.ProductName).HasMaxLength(40);
 

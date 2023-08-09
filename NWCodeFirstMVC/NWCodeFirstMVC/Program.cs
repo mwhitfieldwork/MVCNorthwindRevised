@@ -1,7 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using NWCodeFirstMVC.App.Contracts;
+using NWCodeFirstMVC.Domain;
+using NWCodeFirstMVC.Domain.Models;
 using NWCodeFirstMVC.Infrastructure.Services;
-using NWCodeFirstMVCSacffold.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
