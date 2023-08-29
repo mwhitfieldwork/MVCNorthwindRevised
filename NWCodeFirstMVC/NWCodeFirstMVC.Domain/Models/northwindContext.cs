@@ -222,6 +222,8 @@ namespace NWCodeFirstMVC.Domain.Models
 
                 entity.Property(e => e.HomePhone).HasMaxLength(24);
 
+                entity.Property(e => e.IsDeleted).HasColumnName("isDeleted");
+
                 entity.Property(e => e.LastName).HasMaxLength(20);
 
                 entity.Property(e => e.Notes).HasColumnType("ntext");

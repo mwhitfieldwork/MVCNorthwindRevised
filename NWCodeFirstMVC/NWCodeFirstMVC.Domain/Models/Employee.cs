@@ -30,6 +30,7 @@ namespace NWCodeFirstMVC.Domain.Models
         public string? Notes { get; set; }
         public int? ReportsTo { get; set; }
         public string? PhotoPath { get; set; }
+        public bool IsDeleted { get; set; }
 
         public virtual Employee? ReportsToNavigation { get; set; }
         public virtual ICollection<Employee> InverseReportsToNavigation { get; set; }
