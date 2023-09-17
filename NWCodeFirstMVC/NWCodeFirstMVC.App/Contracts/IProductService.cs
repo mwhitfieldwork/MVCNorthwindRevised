@@ -21,5 +21,7 @@ namespace NWCodeFirstMVC.App.Contracts
         void UpdateProduct(int id, Product product);
 
         Product AddProduct(Product product);
+
+        void  DeleteProduct(int id);
     }
 }
