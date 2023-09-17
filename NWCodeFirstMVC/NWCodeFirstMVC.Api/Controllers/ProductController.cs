@@ -101,13 +101,11 @@ namespace NWCodeFirstMVC.Api.Controllers
         public ActionResult DeleteProduct(int id)
         {
             var product = _dc.Products.Find(id);
-
-            if(product == null)
+           
+            if (product != null)
             {
-                return NotFound();
+                product.IsDeleted = true;
             }
-
-            _dc.Products.Remove(product);
             _dc.SaveChanges();
 
             return NoContent();

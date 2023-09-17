@@ -93,5 +93,9 @@ namespace NWCodeFirstMVC.Infrastructure.Services
         public void UpdateProduct(int id, Product product)
         {
         }
+
+        public void DeleteProduct(int id)
+        {
+        }
     }
 }
