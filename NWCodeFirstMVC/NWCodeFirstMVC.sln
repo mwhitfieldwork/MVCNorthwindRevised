@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NWCodeFirstMVC.App", "NWCod
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NWCodeFirstMVC.Infrastructure", "NWCodeFirstMVC.Infrastructure\NWCodeFirstMVC.Infrastructure.csproj", "{071BC6DF-D231-45DB-9B86-D8240A1AEBE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NWCodeFirstMVC.Api", "NWCodeFirstMVC.Api\NWCodeFirstMVC.Api.csproj", "{198143C2-C95D-4432-9CDF-2CD79A8080FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NWCodeFirstMVC.Api", "NWCodeFirstMVC.Api\NWCodeFirstMVC.Api.csproj", "{198143C2-C95D-4432-9CDF-2CD79A8080FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

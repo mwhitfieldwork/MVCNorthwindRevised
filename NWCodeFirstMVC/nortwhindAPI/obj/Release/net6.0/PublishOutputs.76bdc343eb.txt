@@ -1,0 +1,11 @@
+C:\Practice\BackEnd\NWCodeFirstMVC\CodeFirstMVCNorthwind\NWCodeFirstMVC\nortwhindAPI\obj\Release\net6.0\PubTmp\Out\nortwhindAPI.exe
+C:\Practice\BackEnd\NWCodeFirstMVC\CodeFirstMVCNorthwind\NWCodeFirstMVC\nortwhindAPI\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Practice\BackEnd\NWCodeFirstMVC\CodeFirstMVCNorthwind\NWCodeFirstMVC\nortwhindAPI\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Practice\BackEnd\NWCodeFirstMVC\CodeFirstMVCNorthwind\NWCodeFirstMVC\nortwhindAPI\obj\Release\net6.0\PubTmp\Out\nortwhindAPI.dll
+C:\Practice\BackEnd\NWCodeFirstMVC\CodeFirstMVCNorthwind\NWCodeFirstMVC\nortwhindAPI\obj\Release\net6.0\PubTmp\Out\nortwhindAPI.deps.json
+C:\Practice\BackEnd\NWCodeFirstMVC\CodeFirstMVCNorthwind\NWCodeFirstMVC\nortwhindAPI\obj\Release\net6.0\PubTmp\Out\nortwhindAPI.runtimeconfig.json
+C:\Practice\BackEnd\NWCodeFirstMVC\CodeFirstMVCNorthwind\NWCodeFirstMVC\nortwhindAPI\obj\Release\net6.0\PubTmp\Out\nortwhindAPI.pdb
+C:\Practice\BackEnd\NWCodeFirstMVC\CodeFirstMVCNorthwind\NWCodeFirstMVC\nortwhindAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Practice\BackEnd\NWCodeFirstMVC\CodeFirstMVCNorthwind\NWCodeFirstMVC\nortwhindAPI\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Practice\BackEnd\NWCodeFirstMVC\CodeFirstMVCNorthwind\NWCodeFirstMVC\nortwhindAPI\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Practice\BackEnd\NWCodeFirstMVC\CodeFirstMVCNorthwind\NWCodeFirstMVC\nortwhindAPI\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
