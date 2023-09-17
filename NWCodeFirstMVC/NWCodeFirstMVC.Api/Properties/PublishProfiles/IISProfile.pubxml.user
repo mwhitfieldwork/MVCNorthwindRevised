@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdOjenBqwEk6e9Ck8zddF9gAAAAACAAAAAAAQZgAAAAEAACAAAABItE+9jyFg0WP2ET9jpqjGpc7SxtfGkPsrIkwTYjBPxAAAAAAOgAAAAAIAACAAAACEKNvul/Z73cO0gs7wnts1xlMdRChdzKLA4ahJufI6bCAAAABIYfofl4PdT/HKJwWp6SdSSOg5BRFDpFrbJ/9fKfvbKUAAAADt8+TYQKmiz1Ic4zRhPqTji9WjmS19moH23iDa0Nkj1pTu1K3uKrtuvSdRPRidadQ2He+WnRrWoNSgXiYXEKdx</EncryptedPassword>
+    <History>True|2023-09-15T22:50:13.0234413Z;True|2023-09-15T16:53:58.7257813-05:00;True|2023-09-15T16:46:28.7327480-05:00;True|2023-09-15T16:42:00.5028171-05:00;True|2023-09-11T13:46:02.0061107-05:00;True|2023-09-10T10:19:25.0561315-05:00;True|2023-09-10T07:24:34.6705372-05:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="Prod">
+      <Value>Data Source=tcp:s10.everleap.com%3bInitial Catalog=DB_8420_mwnorthwind%3bUser ID=DB_8420_mwnorthwind_user%3bPassword=Mikeweb1980!%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

@@ -3,6 +3,8 @@ using NWCodeFirstMVC.App.Contracts;
 using NWCodeFirstMVC.Infrastructure.Services;
 using NWCodeFirstMVC.Domain.Models;
 using NWCodeFirstMVC.Domain;
+using NLog;
+using NuGet.Protocol.Plugins;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,6 +30,11 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddSwaggerGen();
 
+NLog.LogManager.Setup().LoadConfiguration(builder => {
+    builder.ForLogger().FilterMinLevel(NLog.LogLevel.Info).WriteToConsole();
+    builder.ForLogger().FilterMinLevel(NLog.LogLevel.Debug).WriteToFile(fileName: "file.txt");
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -41,6 +48,7 @@ app.UseHttpsRedirection();
 app.UseCors("AllowAll");
 app.UseRouting();
 app.UseAuthorization();
+app.UseStaticFiles();
 
 app.UseEndpoints(endpoints =>
 {

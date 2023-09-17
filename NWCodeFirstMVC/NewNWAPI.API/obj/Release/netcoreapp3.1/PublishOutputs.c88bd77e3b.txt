@@ -1,0 +1,8 @@
+C:\Practice\BackEnd\NWCodeFirstMVC\CodeFirstMVCNorthwind\NWCodeFirstMVC\NewNWAPI.API\obj\Release\netcoreapp3.1\PubTmp\Out\NewNWAPI.API.exe
+C:\Practice\BackEnd\NWCodeFirstMVC\CodeFirstMVCNorthwind\NWCodeFirstMVC\NewNWAPI.API\obj\Release\netcoreapp3.1\PubTmp\Out\web.config
+C:\Practice\BackEnd\NWCodeFirstMVC\CodeFirstMVCNorthwind\NWCodeFirstMVC\NewNWAPI.API\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.Development.json
+C:\Practice\BackEnd\NWCodeFirstMVC\CodeFirstMVCNorthwind\NWCodeFirstMVC\NewNWAPI.API\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.json
+C:\Practice\BackEnd\NWCodeFirstMVC\CodeFirstMVCNorthwind\NWCodeFirstMVC\NewNWAPI.API\obj\Release\netcoreapp3.1\PubTmp\Out\NewNWAPI.API.dll
+C:\Practice\BackEnd\NWCodeFirstMVC\CodeFirstMVCNorthwind\NWCodeFirstMVC\NewNWAPI.API\obj\Release\netcoreapp3.1\PubTmp\Out\NewNWAPI.API.deps.json
+C:\Practice\BackEnd\NWCodeFirstMVC\CodeFirstMVCNorthwind\NWCodeFirstMVC\NewNWAPI.API\obj\Release\netcoreapp3.1\PubTmp\Out\NewNWAPI.API.runtimeconfig.json
+C:\Practice\BackEnd\NWCodeFirstMVC\CodeFirstMVCNorthwind\NWCodeFirstMVC\NewNWAPI.API\obj\Release\netcoreapp3.1\PubTmp\Out\NewNWAPI.API.pdb
