@@ -9,6 +9,9 @@ using Newtonsoft.Json;
 using Microsoft.EntityFrameworkCore;
 using NWCodeFirstMVC.Domain.Models;
 using NWCodeFirstMVC.Domain;
+using NWCodeFirstMVC.Domain.Dto;
+using Microsoft.AspNetCore.Mvc.Infrastructure;
+using AutoMapper;
 
 namespace NWCodeFirstMVC.Infrastructure.Services
 {    
@@ -22,42 +25,32 @@ namespace NWCodeFirstMVC.Infrastructure.Services
     {
 
         private readonly northwindContext _dc;
+        private readonly IMapper mapper;
 
-        public ProductService(northwindContext dc)
+        public ProductService(northwindContext dc, IMapper mapper)
         {
             _dc = dc;
+            this.mapper = mapper;
         }
 
 
 
-        public List<Product> GetAllProduct()
+        public List<GetProductDto> GetAllProduct()
         {
-            IQueryable<Product> products = _dc.Products;
+            List<Product> products = _dc.Products.ToList();
 
-            var results = products.Select(x =>
-            new Product
-            {
-                ProductId = x.ProductId,
-                ProductName = x.ProductName,
-                SupplierId = x.SupplierId,
-                CategoryId = x.CategoryId,
-                QuantityPerUnit = x.QuantityPerUnit,
-                UnitPrice = x.UnitPrice,
-                UnitsInStock = x.UnitsInStock,
-                UnitsOnOrder = x.UnitsOnOrder,
-                ReorderLevel = x.ReorderLevel,
-                Discontinued = x.Discontinued
-            }).ToList();
+           var results = mapper.Map<List<GetProductDto>>(products);
 
             return results;
         }
 
 
-        public Product GetProduct(int id)
+        public GetProductDto GetProduct(int id)
         {
+            
             var product = _dc.Products.Where(x => x.ProductId == id).FirstOrDefault();
-
-            return product;
+            var records = mapper.Map<GetProductDto>(product);
+            return records;
         }
 
 
@@ -81,8 +74,10 @@ namespace NWCodeFirstMVC.Infrastructure.Services
         }
 
 
-        public Product AddProduct(Product product)
+        public Product AddProduct(ProductDto createProduct)
         {
+            var product = mapper.Map<Product>(createProduct);
+
             _dc.Products.Add(product);
             _dc.SaveChanges();
 

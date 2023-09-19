@@ -1,8 +1,10 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NWCodeFirstMVC.App.Contracts;
 using NWCodeFirstMVC.Domain;
+using NWCodeFirstMVC.Domain.Dto;
 using NWCodeFirstMVC.Domain.Models;
 
 namespace NWCodeFirstMVC.Api.Controllers
@@ -14,12 +16,13 @@ namespace NWCodeFirstMVC.Api.Controllers
     {
         private readonly IProductService _productService;
         private readonly northwindContext _dc;
+        private readonly IMapper mapper;
 
-
-        public ProductController(IProductService productService, northwindContext dc)
+        public ProductController(IProductService productService, northwindContext dc, IMapper mapper)
         {
             _productService = productService;
             _dc = dc;
+            this.mapper = mapper;
         }
 
         [HttpGet]
@@ -61,9 +64,10 @@ namespace NWCodeFirstMVC.Api.Controllers
         }
 
         [HttpPost("AddProduct")]
-        public ActionResult AddProduct(Product product)
+        public ActionResult AddProduct(ProductDto createproduct)
         {
-            var results = _productService.AddProduct(product);
+            var product = mapper.Map<Product>(createproduct);
+            var results = _productService.AddProduct(createproduct);
             return CreatedAtAction("GetAllProduct", new { ProductId = product.ProductId }, product);
         }
 
