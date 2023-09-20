@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "J4NN9mcHDKRIsyYQ5LOP67AihTDhuCg+OH2o5ztF2+k1es8xYHSwduxbwUCBxQ/Zyyv4uE83++xgyxv4koBuWg==",
+  "dgSpecHash": "uvBVtexR2qJy9jyd8wwIXL9+5SfhCP6XCxxqnlDQ4HFR+IlJIYvb41tdiMbWDm/HWBQ8wIa+mbSdfnoOSP14jw==",
   "success": true,
   "projectFilePath": "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Api\\NWCodeFirstMVC.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\whitf\\.nuget\\packages\\automapper\\8.0.0\\automapper.8.0.0.nupkg.sha512",
+    "C:\\Users\\whitf\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\6.0.0\\automapper.extensions.microsoft.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\whitf\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\whitf\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\whitf\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",

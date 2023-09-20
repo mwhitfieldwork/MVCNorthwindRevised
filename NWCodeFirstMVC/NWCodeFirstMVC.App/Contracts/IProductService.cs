@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using NWCodeFirstMVC.Domain.Dto;
 using NWCodeFirstMVC.Domain.Models;
 using System;
 using System.Collections.Generic;
@@ -10,9 +11,9 @@ namespace NWCodeFirstMVC.App.Contracts
 {
     public interface IProductService
     {
-        List<Product> GetAllProduct();
+        List<GetProductDto> GetAllProduct();
 
-        Product GetProduct(int id);
+        GetProductDto GetProduct(int id);
 
         List<Product> GetLuxuryUSProduct();
 
@@ -20,7 +21,7 @@ namespace NWCodeFirstMVC.App.Contracts
 
         void UpdateProduct(int id, Product product);
 
-        Product AddProduct(Product product);
+        Product AddProduct(ProductDto product);
 
         void  DeleteProduct(int id);
     }

@@ -5,6 +5,8 @@ using NWCodeFirstMVC.Domain.Models;
 using NWCodeFirstMVC.Domain;
 using NLog;
 using NuGet.Protocol.Plugins;
+using NWCodeFirstMVC.Api.Configurations;
+using AutoMapper;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -29,6 +31,7 @@ builder.Services.AddCors(options =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddSwaggerGen();
+builder.Services.AddAutoMapper(typeof(MapperConfig));
 
 NLog.LogManager.Setup().LoadConfiguration(builder => {
     builder.ForLogger().FilterMinLevel(NLog.LogLevel.Info).WriteToConsole();
