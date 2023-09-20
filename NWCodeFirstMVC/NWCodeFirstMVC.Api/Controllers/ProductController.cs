@@ -15,26 +15,25 @@ namespace NWCodeFirstMVC.Api.Controllers
     public class ProductController : ControllerBase
     {
         private readonly IProductService _productService;
-        private readonly northwindContext _dc;
         private readonly IMapper mapper;
 
-        public ProductController(IProductService productService, northwindContext dc, IMapper mapper)
+        public ProductController(IProductService productService, IMapper mapper)
         {
             _productService = productService;
-            _dc = dc;
             this.mapper = mapper;
         }
 
         [HttpGet]
-        public IActionResult GetAllProduct()
+        public async Task<IActionResult> GetAllProduct()
         {
-            return Ok(_productService.GetAllProduct());
+            var products = await _productService.GetAllAsync();
+            return Ok(products);
         }
 
         [HttpGet("{id}")]
-        public IActionResult GetAProduct(int id)
+        public async Task<IActionResult> GetAProduct(int id)
         {
-            var product = _productService.GetProduct(id);
+            var product = await _productService.GetAsync(id);
 
             if (product == null)
             {
@@ -44,7 +43,7 @@ namespace NWCodeFirstMVC.Api.Controllers
             return Ok(product);
         }
 
-
+        /*
         [HttpGet("GetLuxUsProd")]
         public IActionResult GetLuxuryUSProduct() //IActionResult returns the json data
         {
@@ -61,33 +60,36 @@ namespace NWCodeFirstMVC.Api.Controllers
             var results = _productService.GetProductWithHighQuantityOrders();
 
             return Ok(results);
-        }
+        }*/
 
         [HttpPost("AddProduct")]
         public ActionResult AddProduct(ProductDto createproduct)
         {
             var product = mapper.Map<Product>(createproduct);
-            var results = _productService.AddProduct(createproduct);
+            var results = _productService.AddAsync(product);
             return CreatedAtAction("GetAllProduct", new { ProductId = product.ProductId }, product);
         }
 
         [HttpPut("{id}")]
-        public ActionResult UpdateProduct(int id, Product product)
+        public async Task<IActionResult> UpdateProduct(int id, Product updateProduct)
         {
-            if(id != product.ProductId)
+            if(id != updateProduct.ProductId)
             {
                 return BadRequest("Invalid ID");
             }
 
-            _dc.Entry(product).State = EntityState.Modified;
-
+           if(updateProduct == null)
+            {
+                return NotFound();
+            }
+            
             try
             {
-                _dc.SaveChanges();
+              await _productService.UpdateAsync(updateProduct);
             }
             catch(DbUpdateConcurrencyException)
             {
-                if(product.ProductId != id)
+                if(updateProduct.ProductId != id)
                 {
                     return NotFound();
                 }
@@ -102,15 +104,9 @@ namespace NWCodeFirstMVC.Api.Controllers
         }
 
         [HttpDelete("{id}")]
-        public ActionResult DeleteProduct(int id)
+        public async Task<IActionResult> DeleteProduct(int id)
         {
-            var product = _dc.Products.Find(id);
-           
-            if (product != null)
-            {
-                product.IsDeleted = true;
-            }
-            _dc.SaveChanges();
+            await _productService.DeleteAsync(id);
 
             return NoContent();
 

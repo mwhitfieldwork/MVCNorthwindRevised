@@ -21,76 +21,85 @@ namespace NWCodeFirstMVC.Infrastructure.Services
     // Instead there is an intermediary. The service implements the interface and is used
     // inside the contorller and keeps higher level functions
 
-    public class ProductService:IProductService 
+    public class ProductService: GenericService<Product>,IProductService 
     {
-
-        private readonly northwindContext _dc;
-        private readonly IMapper mapper;
-
-        public ProductService(northwindContext dc, IMapper mapper)
+        public ProductService(northwindContext dc):base(dc)
         {
-            _dc = dc;
-            this.mapper = mapper;
-        }
-
-
-
-        public List<GetProductDto> GetAllProduct()
-        {
-            List<Product> products = _dc.Products.ToList();
-
-           var results = mapper.Map<List<GetProductDto>>(products);
-
-            return results;
-        }
-
-
-        public GetProductDto GetProduct(int id)
-        {
-            
-            var product = _dc.Products.Where(x => x.ProductId == id).FirstOrDefault();
-            var records = mapper.Map<GetProductDto>(product);
-            return records;
-        }
-
-
-        public List<Product> GetLuxuryUSProduct()
-        {
-            List<Product> luxproduct = _dc.Products.Join(_dc.Suppliers,
-                              x => x.SupplierId,
-                              y => y.SupplierId,
-                              (x, y) => new { Product = x, Supplier = y })
-                           .Where(z => z.Product.UnitPrice > 10 && z.Supplier.Country == "USA").Select(x => x.Product).ToList();
-
-            return luxproduct;
-        }
-
-        public List<Product> GetProductWithHighQuantityOrders()
-        {
-            //ask why this is not returning a simple json response
-            var prodorders = _dc.Products.Where(y => y.ProductId == 11).Include(x => x.OrderDetails.Where(o => o.Quantity == 30)).ToList();
-
-            return prodorders;
-        }
-
-
-        public Product AddProduct(ProductDto createProduct)
-        {
-            var product = mapper.Map<Product>(createProduct);
-
-            _dc.Products.Add(product);
-            _dc.SaveChanges();
-
-            return product;
 
         }
 
-        public void UpdateProduct(int id, Product product)
-        {
-        }
+        //public Task UpdateAsync(Task<Product?> product)
+        //{
+        //    throw new NotImplementedException();
+        //}
 
-        public void DeleteProduct(int id)
-        {
-        }
+        //private readonly northwindContext _dc;
+        //private readonly IMapper mapper;
+
+        //public ProductService(northwindContext dc, IMapper mapper)
+        //{
+        //    _dc = dc;
+        //    this.mapper = mapper;
+        //}
+
+
+
+        //public List<GetProductDto> GetAllProduct()
+        //{
+        //    List<Product> products = _dc.Products.ToList();
+
+        //   var results = mapper.Map<List<GetProductDto>>(products);
+
+        //    return results;
+        //}
+
+
+        //public GetProductDto GetProduct(int id)
+        //{
+
+        //    var product = _dc.Products.Where(x => x.ProductId == id).FirstOrDefault();
+        //    var records = mapper.Map<GetProductDto>(product);
+        //    return records;
+        //}
+
+
+        //public List<Product> GetLuxuryUSProduct()
+        //{
+        //    List<Product> luxproduct = _dc.Products.Join(_dc.Suppliers,
+        //                      x => x.SupplierId,
+        //                      y => y.SupplierId,
+        //                      (x, y) => new { Product = x, Supplier = y })
+        //                   .Where(z => z.Product.UnitPrice > 10 && z.Supplier.Country == "USA").Select(x => x.Product).ToList();
+
+        //    return luxproduct;
+        //}
+
+        //public List<Product> GetProductWithHighQuantityOrders()
+        //{
+        //    //ask why this is not returning a simple json response
+        //    var prodorders = _dc.Products.Where(y => y.ProductId == 11).Include(x => x.OrderDetails.Where(o => o.Quantity == 30)).ToList();
+
+        //    return prodorders;
+        //}
+
+
+        //public Product AddProduct(ProductDto createProduct)
+        //{
+        //    var product = mapper.Map<Product>(createProduct);
+
+        //    _dc.Products.Add(product);
+        //    _dc.SaveChanges();
+
+        //    return product;
+
+        //}
+
+        //public void UpdateProduct(int id, Product product)
+        //{
+        //}
+
+        //public void DeleteProduct(int id)
+        //{
+        //}
     }
 }
