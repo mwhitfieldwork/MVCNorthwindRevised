@@ -9,20 +9,21 @@ using System.Threading.Tasks;
 
 namespace NWCodeFirstMVC.App.Contracts
 {
-    public interface IProductService
+    public interface IProductService : IGenericRepository<Product>
     {
-        List<GetProductDto> GetAllProduct();
+        //List<GetProductDto> GetAllProduct();
 
-        GetProductDto GetProduct(int id);
+        //GetProductDto GetProduct(int id);
 
-        List<Product> GetLuxuryUSProduct();
+        //List<Product> GetLuxuryUSProduct();
 
-        List<Product> GetProductWithHighQuantityOrders();
+        //List<Product> GetProductWithHighQuantityOrders();
 
-        void UpdateProduct(int id, Product product);
+        //void UpdateProduct(int id, Product product);
 
-        Product AddProduct(ProductDto product);
+        //Product AddProduct(ProductDto product);
 
-        void  DeleteProduct(int id);
+        //void DeleteProduct(int id);
+       // Task UpdateAsync(Task<Product?> product);
     }
 }

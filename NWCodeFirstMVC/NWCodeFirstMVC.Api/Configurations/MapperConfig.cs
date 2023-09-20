@@ -9,6 +9,7 @@ namespace NWCodeFirstMVC.Api.Configurations
         public MapperConfig()
         {
             CreateMap<Product, ProductDto>().ReverseMap();
+            CreateMap<Product, GetProductDto>().ReverseMap();
         }
     }
 }
