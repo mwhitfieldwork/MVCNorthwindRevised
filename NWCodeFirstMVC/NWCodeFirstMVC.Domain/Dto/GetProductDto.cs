@@ -10,7 +10,7 @@ namespace NWCodeFirstMVC.Domain.Dto
     public class GetProductDto
     {
         [DataMember]
-        public int Id { get; set; }
+        public int ProductId { get; set; }
         [DataMember]
         public string ProductName { get; set; }
         [DataMember]
