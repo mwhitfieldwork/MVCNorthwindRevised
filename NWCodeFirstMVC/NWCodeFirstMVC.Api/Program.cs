@@ -30,6 +30,7 @@ builder.Services.AddCors(options =>
 });
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddSwaggerGen();
 builder.Services.AddAutoMapper(typeof(MapperConfig));
 
