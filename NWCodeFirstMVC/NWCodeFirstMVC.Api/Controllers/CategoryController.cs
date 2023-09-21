@@ -24,7 +24,7 @@ namespace NWCodeFirstMVC.Api.Controllers
         public async Task<IActionResult> GetAllCategories()
         {
             var categories = await categoryService.GetAllAsync();
-            var categoriesDto = mapper.Map<GetCategoryDto>(categories);
+            var categoriesDto = mapper.Map<List<GetCategoryDto>>(categories);
             return Ok(categoriesDto);
         }
 
