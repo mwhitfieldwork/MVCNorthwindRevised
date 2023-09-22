@@ -17,5 +17,7 @@ namespace NWCodeFirstMVC.Domain.Dto
         public string QuantityPerUnit { get; set; }
         [DataMember]
         public Nullable<decimal> UnitPrice { get; set; }
+        [DataMember]
+        public Nullable<int> CategoryID { get; set; }
     }
 }

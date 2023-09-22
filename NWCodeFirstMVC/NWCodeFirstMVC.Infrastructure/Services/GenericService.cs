@@ -24,7 +24,16 @@ namespace NWCodeFirstMVC.Infrastructure.Services
         public async Task<T> AddAsync(T entity)
         {
             await _dc.AddAsync(entity);
-            await _dc.SaveChangesAsync();
+
+            try
+            {
+                await _dc.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+
             return entity;
         }
 

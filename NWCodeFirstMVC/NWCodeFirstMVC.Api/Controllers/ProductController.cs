@@ -63,10 +63,10 @@ namespace NWCodeFirstMVC.Api.Controllers
         }*/
 
         [HttpPost("AddProduct")]
-        public ActionResult AddProduct(ProductDto createproduct)
+        public async Task<IActionResult> AddProduct(ProductDto createproduct)
         {
             var product = mapper.Map<Product>(createproduct);
-            var results = _productService.AddAsync(product);
+            var results = await _productService.AddAsync(product);
             return CreatedAtAction("GetAllProduct", new { ProductId = product.ProductId }, product);
         }
 
