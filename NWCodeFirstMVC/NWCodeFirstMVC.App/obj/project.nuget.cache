@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GU0Ssyfc260bxf1MOVNcidCAhMHamioBCn8CwK27HaZtrUYqyqD/Q0cWRcFIzovt9v7fNPoKbgHy29d+SrDopQ==",
+  "dgSpecHash": "THVu5QSFpn0=",
   "success": true,
-  "projectFilePath": "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.App\\NWCodeFirstMVC.App.csproj",
+  "projectFilePath": "C:\\Users\\whitf\\Practice\\backend\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.App\\NWCodeFirstMVC.App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\whitf\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\whitf\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

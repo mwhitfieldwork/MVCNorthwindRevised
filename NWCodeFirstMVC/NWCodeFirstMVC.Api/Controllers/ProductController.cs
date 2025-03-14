@@ -25,7 +25,7 @@ namespace NWCodeFirstMVC.Api.Controllers
 
         [HttpGet]
         public async Task<IActionResult> GetAllProduct()
-        {
+            {
             var products = await _productService.GetAllAsync();
             return Ok(products);
         }

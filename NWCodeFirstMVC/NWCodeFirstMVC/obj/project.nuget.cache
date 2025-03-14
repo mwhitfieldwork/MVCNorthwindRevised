@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3ovwUhQ/1xGjX+0a0hafNHU94jvrccluAuVsIOd2W/YepDkDP9IGW1n5mHXBAAhM2l48jMIFlHwSLkL72UJ+zg==",
+  "dgSpecHash": "3g8B5eXTDK4=",
   "success": true,
-  "projectFilePath": "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC\\NWCodeFirstMVC.csproj",
+  "projectFilePath": "C:\\Users\\whitf\\Practice\\backend\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC\\NWCodeFirstMVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\whitf\\.nuget\\packages\\automapper\\8.0.0\\automapper.8.0.0.nupkg.sha512",
     "C:\\Users\\whitf\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\6.0.0\\automapper.extensions.microsoft.dependencyinjection.6.0.0.nupkg.sha512",

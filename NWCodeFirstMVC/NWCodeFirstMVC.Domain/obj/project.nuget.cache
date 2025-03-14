@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mXk8FN2Pps+rCzYPIxQH89Kgrxtnb2meny4MH2LK3Z7fi9lmR/0mSNEXjLzsyAZVa7DNfm1g55rZ2n1iCIuIEA==",
+  "dgSpecHash": "kNa5AnYIXxI=",
   "success": true,
-  "projectFilePath": "C:\\Practice\\BackEnd\\NWCodeFirstMVC\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Domain\\NWCodeFirstMVC.Domain.csproj",
+  "projectFilePath": "C:\\Users\\whitf\\Practice\\backend\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Domain\\NWCodeFirstMVC.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\whitf\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\whitf\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
