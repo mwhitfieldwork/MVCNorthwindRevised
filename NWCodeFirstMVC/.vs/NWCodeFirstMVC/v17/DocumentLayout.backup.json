@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\whitf\\Practice\\backend\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0AA95647-FAA5-4BE4-9E8B-C81BF17F858C}|NWCodeFirstMVC.Domain\\NWCodeFirstMVC.Domain.csproj|c:\\users\\whitf\\practice\\backend\\codefirstmvcnorthwind\\nwcodefirstmvc\\nwcodefirstmvc.domain\\dto\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AA95647-FAA5-4BE4-9E8B-C81BF17F858C}|NWCodeFirstMVC.Domain\\NWCodeFirstMVC.Domain.csproj|solutionrelative:nwcodefirstmvc.domain\\dto\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0AA95647-FAA5-4BE4-9E8B-C81BF17F858C}|NWCodeFirstMVC.Domain\\NWCodeFirstMVC.Domain.csproj|c:\\users\\whitf\\practice\\backend\\codefirstmvcnorthwind\\nwcodefirstmvc\\nwcodefirstmvc.domain\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA95647-FAA5-4BE4-9E8B-C81BF17F858C}|NWCodeFirstMVC.Domain\\NWCodeFirstMVC.Domain.csproj|solutionrelative:nwcodefirstmvc.domain\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{198143C2-C95D-4432-9CDF-2CD79A8080FD}|NWCodeFirstMVC.Api\\NWCodeFirstMVC.Api.csproj|c:\\users\\whitf\\practice\\backend\\codefirstmvcnorthwind\\nwcodefirstmvc\\nwcodefirstmvc.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{198143C2-C95D-4432-9CDF-2CD79A8080FD}|NWCodeFirstMVC.Api\\NWCodeFirstMVC.Api.csproj|solutionrelative:nwcodefirstmvc.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{198143C2-C95D-4432-9CDF-2CD79A8080FD}|NWCodeFirstMVC.Api\\NWCodeFirstMVC.Api.csproj|c:\\users\\whitf\\practice\\backend\\codefirstmvcnorthwind\\nwcodefirstmvc\\nwcodefirstmvc.api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{198143C2-C95D-4432-9CDF-2CD79A8080FD}|NWCodeFirstMVC.Api\\NWCodeFirstMVC.Api.csproj|solutionrelative:nwcodefirstmvc.api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0AA95647-FAA5-4BE4-9E8B-C81BF17F858C}|NWCodeFirstMVC.Domain\\NWCodeFirstMVC.Domain.csproj|c:\\users\\whitf\\practice\\backend\\codefirstmvcnorthwind\\nwcodefirstmvc\\nwcodefirstmvc.domain\\dto\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA95647-FAA5-4BE4-9E8B-C81BF17F858C}|NWCodeFirstMVC.Domain\\NWCodeFirstMVC.Domain.csproj|solutionrelative:nwcodefirstmvc.domain\\dto\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{198143C2-C95D-4432-9CDF-2CD79A8080FD}|NWCodeFirstMVC.Api\\NWCodeFirstMVC.Api.csproj|c:\\users\\whitf\\practice\\backend\\codefirstmvcnorthwind\\nwcodefirstmvc\\nwcodefirstmvc.api\\configurations\\mapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{198143C2-C95D-4432-9CDF-2CD79A8080FD}|NWCodeFirstMVC.Api\\NWCodeFirstMVC.Api.csproj|solutionrelative:nwcodefirstmvc.api\\configurations\\mapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{198143C2-C95D-4432-9CDF-2CD79A8080FD}|NWCodeFirstMVC.Api\\NWCodeFirstMVC.Api.csproj|c:\\users\\whitf\\practice\\backend\\codefirstmvcnorthwind\\nwcodefirstmvc\\nwcodefirstmvc.api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{198143C2-C95D-4432-9CDF-2CD79A8080FD}|NWCodeFirstMVC.Api\\NWCodeFirstMVC.Api.csproj|solutionrelative:nwcodefirstmvc.api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{198143C2-C95D-4432-9CDF-2CD79A8080FD}|NWCodeFirstMVC.Api\\NWCodeFirstMVC.Api.csproj|c:\\users\\whitf\\practice\\backend\\codefirstmvcnorthwind\\nwcodefirstmvc\\nwcodefirstmvc.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,12 +43,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\whitf\\Practice\\backend\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Domain\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "NWCodeFirstMVC.Domain\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\whitf\\Practice\\backend\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Domain\\Models\\Employee.cs",
+              "RelativeToolTip": "NWCodeFirstMVC.Domain\\Models\\Employee.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwCkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T00:41:18.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "EmployeeDTO.cs",
               "DocumentMoniker": "C:\\Users\\whitf\\Practice\\backend\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Domain\\Dto\\EmployeeDTO.cs",
               "RelativeDocumentMoniker": "NWCodeFirstMVC.Domain\\Dto\\EmployeeDTO.cs",
               "ToolTip": "C:\\Users\\whitf\\Practice\\backend\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Domain\\Dto\\EmployeeDTO.cs",
               "RelativeToolTip": "NWCodeFirstMVC.Domain\\Dto\\EmployeeDTO.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAwwCMAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAA1wCMAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-14T20:25:30.639Z",
               "EditorCaption": ""
@@ -67,31 +80,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MapperConfig.cs",
-              "DocumentMoniker": "C:\\Users\\whitf\\Practice\\backend\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Api\\Configurations\\MapperConfig.cs",
-              "RelativeDocumentMoniker": "NWCodeFirstMVC.Api\\Configurations\\MapperConfig.cs",
-              "ToolTip": "C:\\Users\\whitf\\Practice\\backend\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Api\\Configurations\\MapperConfig.cs",
-              "RelativeToolTip": "NWCodeFirstMVC.Api\\Configurations\\MapperConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAApwA8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T19:39:19.872Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "C:\\Users\\whitf\\Practice\\backend\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Api\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "NWCodeFirstMVC.Api\\Controllers\\EmployeeController.cs",
               "ToolTip": "C:\\Users\\whitf\\Practice\\backend\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Api\\Controllers\\EmployeeController.cs",
               "RelativeToolTip": "NWCodeFirstMVC.Api\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAwBsAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAxwA0AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T19:02:45.461Z"
+              "WhenOpened": "2025-03-14T19:02:45.461Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "C:\\Users\\whitf\\Practice\\backend\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Api\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "NWCodeFirstMVC.Api\\Controllers\\DashboardController.cs",
@@ -123,7 +125,8 @@
               "RelativeToolTip": "NWCodeFirstMVC.Api\\Controllers\\ProductController.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAgwBwAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T23:34:09.184Z"
+              "WhenOpened": "2024-11-11T23:34:09.184Z",
+              "EditorCaption": ""
             }
           ]
         }

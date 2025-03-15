@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace NWCodeFirstMVC.Domain.Models
 {
@@ -33,9 +34,12 @@ namespace NWCodeFirstMVC.Domain.Models
         public bool IsDeleted { get; set; }
 
         public virtual Employee? ReportsToNavigation { get; set; }
-        public virtual ICollection<Employee> InverseReportsToNavigation { get; set; }
-        public virtual ICollection<Order> Orders { get; set; }
 
+        [JsonIgnore]
+        public virtual ICollection<Employee> InverseReportsToNavigation { get; set; }
+        [JsonIgnore]
+        public virtual ICollection<Order> Orders { get; set; }
+        [JsonIgnore]
         public virtual ICollection<Territory> Territories { get; set; }
     }
 }
