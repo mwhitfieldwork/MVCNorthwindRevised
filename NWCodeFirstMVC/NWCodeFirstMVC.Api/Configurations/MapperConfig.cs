@@ -13,6 +13,7 @@ namespace NWCodeFirstMVC.Api.Configurations
             CreateMap<Product, UpdateProductDto>().ReverseMap();
             CreateMap<Category, CategoryDto>().ReverseMap();
             CreateMap<Category, GetCategoryDto>().ReverseMap();
+            CreateMap<Employee, EmployeeDTO>().ReverseMap();
             CreateMap<SalesByCategory, GetSalesDto>().ReverseMap();
         }
     }
