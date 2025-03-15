@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NWCodeFirstMVC.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+134d4cb3ae388e10535934f88440318908f5872b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40517e6b170813106ac3fc8964380719d7d81aa0")]
 [assembly: System.Reflection.AssemblyProductAttribute("NWCodeFirstMVC.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NWCodeFirstMVC.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

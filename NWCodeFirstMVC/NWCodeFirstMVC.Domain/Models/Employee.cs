@@ -32,7 +32,7 @@ namespace NWCodeFirstMVC.Domain.Models
         public int? ReportsTo { get; set; }
         public string? PhotoPath { get; set; }
         public bool IsDeleted { get; set; }
-
+        [JsonIgnore]
         public virtual Employee? ReportsToNavigation { get; set; }
 
         [JsonIgnore]
