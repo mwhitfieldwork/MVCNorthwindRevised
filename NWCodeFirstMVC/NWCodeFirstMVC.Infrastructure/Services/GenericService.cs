@@ -85,6 +85,5 @@ namespace NWCodeFirstMVC.Infrastructure.Services
             }
             return false;
         }
-
     }
 }
