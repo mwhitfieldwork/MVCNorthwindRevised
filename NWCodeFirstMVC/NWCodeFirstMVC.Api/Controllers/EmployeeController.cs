@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NWCodeFirstMVC.App.Contracts;
+using NWCodeFirstMVC.Infrastructure.Services;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -50,8 +51,12 @@ namespace NWCodeFirstMVC.Api.Controllers
 
         // DELETE api/<EmployeeController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task<IActionResult> DeleteEmployee (int id)
         {
+            await _employeeService.DeleteAsync(id);
+
+            return NoContent();
+
         }
     }
 }

@@ -146,7 +146,7 @@
   },
   {
     "ContainingType": "NWCodeFirstMVC.Api.Controllers.EmployeeController",
-    "Method": "Delete",
+    "Method": "DeleteEmployee",
     "RelativePath": "Employee/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
@@ -158,13 +158,7 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "NWCodeFirstMVC.Api.Controllers.ProductController",
