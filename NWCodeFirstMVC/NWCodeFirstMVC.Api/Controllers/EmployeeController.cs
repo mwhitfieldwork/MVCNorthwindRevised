@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NWCodeFirstMVC.App.Contracts;
+using NWCodeFirstMVC.Domain.Dto;
+using NWCodeFirstMVC.Domain.Models;
 using NWCodeFirstMVC.Infrastructure.Services;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -38,9 +40,12 @@ namespace NWCodeFirstMVC.Api.Controllers
         }
 
         // POST api/<EmployeeController>
-        [HttpPost]
-        public void Post([FromBody] string value)
+        [HttpPost("AddEmployee")]
+        public async Task<IActionResult> AddEmployee(EmployeeDTO createemp)
         {
+            var employee = mapper.Map<Employee>(createemp);
+            var results = await _employeeService.AddAsync(employee);
+            return CreatedAtAction("GetAllEmployees", new { EmployeeId = employee.EmployeeId }, employee);
         }
 
         // PUT api/<EmployeeController>/5
