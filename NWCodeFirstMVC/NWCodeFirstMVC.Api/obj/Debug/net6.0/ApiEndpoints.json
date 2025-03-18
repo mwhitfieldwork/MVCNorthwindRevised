@@ -71,28 +71,6 @@
   },
   {
     "ContainingType": "NWCodeFirstMVC.Api.Controllers.EmployeeController",
-    "Method": "Post",
-    "RelativePath": "Employee",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "value",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "NWCodeFirstMVC.Api.Controllers.EmployeeController",
     "Method": "Get",
     "RelativePath": "Employee/{id}",
     "HttpMethod": "GET",
@@ -155,6 +133,22 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NWCodeFirstMVC.Api.Controllers.EmployeeController",
+    "Method": "AddEmployee",
+    "RelativePath": "Employee/AddEmployee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createemp",
+        "Type": "NWCodeFirstMVC.Domain.Dto.EmployeeDTO",
         "IsRequired": true
       }
     ],
