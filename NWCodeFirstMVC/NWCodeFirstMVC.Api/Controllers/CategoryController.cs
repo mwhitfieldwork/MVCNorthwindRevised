@@ -28,6 +28,15 @@ namespace NWCodeFirstMVC.Api.Controllers
             return Ok(categoriesDto);
         }
 
+        [HttpGet("{categoryName},{orderYear}")]
+        public async Task<IActionResult> GetSalesByCategory(string categoryName, string orderYear)
+        {
+            var categories = await categoryService.GetSalesByCategory(categoryName, orderYear);
+            var categoriesDto = mapper.Map<List<SalesByCategoryDTO>>(categories);
+            return Ok(categoriesDto);
+        }
+
+
         /*
         // GET: CategoryController/Details/5
         public ActionResult Details(int id)

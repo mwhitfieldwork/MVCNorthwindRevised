@@ -50,6 +50,27 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "NWCodeFirstMVC.Api.Controllers.CategoryController",
+    "Method": "GetSalesByCategory",
+    "RelativePath": "Category/{categoryName},{orderYear}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryName",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "orderYear",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "NWCodeFirstMVC.Api.Controllers.DashboardController",
     "Method": "GetAllCategories",
     "RelativePath": "Dashboard",
