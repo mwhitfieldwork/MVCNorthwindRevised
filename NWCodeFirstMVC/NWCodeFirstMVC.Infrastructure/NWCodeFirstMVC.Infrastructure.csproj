@@ -25,4 +25,8 @@
     <ProjectReference Include="..\NWCodeFirstMVC.App\NWCodeFirstMVC.App.csproj" />
     <ProjectReference Include="..\NWCodeFirstMVC.Domain\NWCodeFirstMVC.Domain.csproj" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\NewFolder\" />
+  </ItemGroup>
 </Project>

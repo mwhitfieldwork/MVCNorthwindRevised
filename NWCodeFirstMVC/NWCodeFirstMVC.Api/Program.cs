@@ -29,6 +29,7 @@ builder.Services.AddCors(options =>
         .AllowAnyMethod());
 });
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddScoped<IOrderHistory, OrderHistoryService>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IDashboardService, DashboardService>();
