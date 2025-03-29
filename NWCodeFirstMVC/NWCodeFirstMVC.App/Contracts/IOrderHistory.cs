@@ -1,4 +1,5 @@
-﻿using NWCodeFirstMVC.Domain.Models;
+﻿using NWCodeFirstMVC.Domain.Dto;
+using NWCodeFirstMVC.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,8 @@ using System.Threading.Tasks;
 
 namespace NWCodeFirstMVC.App.Contracts
 {
-    public interface IOrderHistory : IGenericRepository<OrderDetail>
+    public interface IOrderHistory : IGenericRepository<OrderDetailsExtended>
     {
+        Task<List<OrderDetailsExtended>> GetOrderHistory();
     }
 }

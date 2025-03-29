@@ -21,7 +21,7 @@ namespace NWCodeFirstMVC.Api.Controllers
         [HttpGet]
         public async Task<IActionResult> GetOrderHistory()
         {
-            var orderHistory = await _orderHistoryService.GetAllAsync();
+            var orderHistory = await _orderHistoryService.GetOrderHistory();
             return Ok(orderHistory);
         }
     }
