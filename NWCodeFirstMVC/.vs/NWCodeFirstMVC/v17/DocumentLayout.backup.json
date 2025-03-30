@@ -7,28 +7,24 @@
       "RelativeMoniker": "D:0:0:{0AA95647-FAA5-4BE4-9E8B-C81BF17F858C}|NWCodeFirstMVC.Domain\\NWCodeFirstMVC.Domain.csproj|solutionrelative:nwcodefirstmvc.domain\\models\\northwindcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{198143C2-C95D-4432-9CDF-2CD79A8080FD}|NWCodeFirstMVC.Api\\NWCodeFirstMVC.Api.csproj|c:\\users\\whitf\\practice\\backend\\codefirstmvcnorthwind\\nwcodefirstmvc\\nwcodefirstmvc.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{198143C2-C95D-4432-9CDF-2CD79A8080FD}|NWCodeFirstMVC.Api\\NWCodeFirstMVC.Api.csproj|solutionrelative:nwcodefirstmvc.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{071BC6DF-D231-45DB-9B86-D8240A1AEBE7}|NWCodeFirstMVC.Infrastructure\\NWCodeFirstMVC.Infrastructure.csproj|c:\\users\\whitf\\practice\\backend\\codefirstmvcnorthwind\\nwcodefirstmvc\\nwcodefirstmvc.infrastructure\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{071BC6DF-D231-45DB-9B86-D8240A1AEBE7}|NWCodeFirstMVC.Infrastructure\\NWCodeFirstMVC.Infrastructure.csproj|solutionrelative:nwcodefirstmvc.infrastructure\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{198143C2-C95D-4432-9CDF-2CD79A8080FD}|NWCodeFirstMVC.Api\\NWCodeFirstMVC.Api.csproj|c:\\users\\whitf\\practice\\backend\\codefirstmvcnorthwind\\nwcodefirstmvc\\nwcodefirstmvc.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{198143C2-C95D-4432-9CDF-2CD79A8080FD}|NWCodeFirstMVC.Api\\NWCodeFirstMVC.Api.csproj|solutionrelative:nwcodefirstmvc.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31F69EB1-9D95-401F-A5DC-3818640C1D40}|NWCodeFirstMVC.App\\NWCodeFirstMVC.App.csproj|c:\\users\\whitf\\practice\\backend\\codefirstmvcnorthwind\\nwcodefirstmvc\\nwcodefirstmvc.app\\contracts\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31F69EB1-9D95-401F-A5DC-3818640C1D40}|NWCodeFirstMVC.App\\NWCodeFirstMVC.App.csproj|solutionrelative:nwcodefirstmvc.app\\contracts\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31F69EB1-9D95-401F-A5DC-3818640C1D40}|NWCodeFirstMVC.App\\NWCodeFirstMVC.App.csproj|c:\\users\\whitf\\practice\\backend\\codefirstmvcnorthwind\\nwcodefirstmvc\\nwcodefirstmvc.app\\contracts\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31F69EB1-9D95-401F-A5DC-3818640C1D40}|NWCodeFirstMVC.App\\NWCodeFirstMVC.App.csproj|solutionrelative:nwcodefirstmvc.app\\contracts\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{198143C2-C95D-4432-9CDF-2CD79A8080FD}|NWCodeFirstMVC.Api\\NWCodeFirstMVC.Api.csproj|c:\\users\\whitf\\practice\\backend\\codefirstmvcnorthwind\\nwcodefirstmvc\\nwcodefirstmvc.api\\controllers\\orderhistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{198143C2-C95D-4432-9CDF-2CD79A8080FD}|NWCodeFirstMVC.Api\\NWCodeFirstMVC.Api.csproj|solutionrelative:nwcodefirstmvc.api\\controllers\\orderhistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31F69EB1-9D95-401F-A5DC-3818640C1D40}|NWCodeFirstMVC.App\\NWCodeFirstMVC.App.csproj|c:\\users\\whitf\\practice\\backend\\codefirstmvcnorthwind\\nwcodefirstmvc\\nwcodefirstmvc.app\\contracts\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31F69EB1-9D95-401F-A5DC-3818640C1D40}|NWCodeFirstMVC.App\\NWCodeFirstMVC.App.csproj|solutionrelative:nwcodefirstmvc.app\\contracts\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{198143C2-C95D-4432-9CDF-2CD79A8080FD}|NWCodeFirstMVC.Api\\NWCodeFirstMVC.Api.csproj|c:\\users\\whitf\\practice\\backend\\codefirstmvcnorthwind\\nwcodefirstmvc\\nwcodefirstmvc.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{198143C2-C95D-4432-9CDF-2CD79A8080FD}|NWCodeFirstMVC.Api\\NWCodeFirstMVC.Api.csproj|solutionrelative:nwcodefirstmvc.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{071BC6DF-D231-45DB-9B86-D8240A1AEBE7}|NWCodeFirstMVC.Infrastructure\\NWCodeFirstMVC.Infrastructure.csproj|c:\\users\\whitf\\practice\\backend\\codefirstmvcnorthwind\\nwcodefirstmvc\\nwcodefirstmvc.infrastructure\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{071BC6DF-D231-45DB-9B86-D8240A1AEBE7}|NWCodeFirstMVC.Infrastructure\\NWCodeFirstMVC.Infrastructure.csproj|solutionrelative:nwcodefirstmvc.infrastructure\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31F69EB1-9D95-401F-A5DC-3818640C1D40}|NWCodeFirstMVC.App\\NWCodeFirstMVC.App.csproj|c:\\users\\whitf\\practice\\backend\\codefirstmvcnorthwind\\nwcodefirstmvc\\nwcodefirstmvc.app\\contracts\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31F69EB1-9D95-401F-A5DC-3818640C1D40}|NWCodeFirstMVC.App\\NWCodeFirstMVC.App.csproj|solutionrelative:nwcodefirstmvc.app\\contracts\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{071BC6DF-D231-45DB-9B86-D8240A1AEBE7}|NWCodeFirstMVC.Infrastructure\\NWCodeFirstMVC.Infrastructure.csproj|c:\\users\\whitf\\practice\\backend\\codefirstmvcnorthwind\\nwcodefirstmvc\\nwcodefirstmvc.infrastructure\\services\\orderhistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,11 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "LoginService.cs",
               "DocumentMoniker": "C:\\Users\\whitf\\Practice\\backend\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Infrastructure\\Services\\LoginService.cs",
               "RelativeDocumentMoniker": "NWCodeFirstMVC.Infrastructure\\Services\\LoginService.cs",
@@ -63,19 +59,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-30T09:26:31.992Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\whitf\\Practice\\backend\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Api\\Program.cs",
-              "RelativeDocumentMoniker": "NWCodeFirstMVC.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\whitf\\Practice\\backend\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Api\\Program.cs",
-              "RelativeToolTip": "NWCodeFirstMVC.Api\\Program.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACQAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T09:25:03.05Z",
               "EditorCaption": ""
             },
             {
@@ -93,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ILoginService.cs",
               "DocumentMoniker": "C:\\Users\\whitf\\Practice\\backend\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.App\\Contracts\\ILoginService.cs",
               "RelativeDocumentMoniker": "NWCodeFirstMVC.App\\Contracts\\ILoginService.cs",
@@ -119,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "OrderHistoryController.cs",
               "DocumentMoniker": "C:\\Users\\whitf\\Practice\\backend\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Api\\Controllers\\OrderHistoryController.cs",
               "RelativeDocumentMoniker": "NWCodeFirstMVC.Api\\Controllers\\OrderHistoryController.cs",
@@ -132,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "ICategoryService.cs",
               "DocumentMoniker": "C:\\Users\\whitf\\Practice\\backend\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.App\\Contracts\\ICategoryService.cs",
               "RelativeDocumentMoniker": "NWCodeFirstMVC.App\\Contracts\\ICategoryService.cs",
@@ -145,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "OrderHistoryService.cs",
               "DocumentMoniker": "C:\\Users\\whitf\\Practice\\backend\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Infrastructure\\Services\\OrderHistoryService.cs",
               "RelativeDocumentMoniker": "NWCodeFirstMVC.Infrastructure\\Services\\OrderHistoryService.cs",
@@ -158,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "CategoryService.cs",
               "DocumentMoniker": "C:\\Users\\whitf\\Practice\\backend\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Infrastructure\\Services\\CategoryService.cs",
               "RelativeDocumentMoniker": "NWCodeFirstMVC.Infrastructure\\Services\\CategoryService.cs",
@@ -170,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\whitf\\Practice\\backend\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Api\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "NWCodeFirstMVC.Api\\Controllers\\CategoryController.cs",
