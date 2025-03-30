@@ -43,6 +43,7 @@ namespace NWCodeFirstMVC.Domain.Models
         public virtual DbSet<SummaryOfSalesByYear> SummaryOfSalesByYears { get; set; } = null!;
         public virtual DbSet<Supplier> Suppliers { get; set; } = null!;
         public virtual DbSet<Territory> Territories { get; set; } = null!;
+        public virtual DbSet<User> User { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -731,6 +732,34 @@ namespace NWCodeFirstMVC.Domain.Models
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_Territories_Region");
             });
+
+            modelBuilder.Entity<User>(entity =>
+            {
+                // Primary Key: PKID (int, not null)
+                entity.HasKey(e => e.PKID);
+
+                entity.Property(e => e.PKID)
+                    .ValueGeneratedOnAdd()
+                    .IsRequired()
+                    .HasColumnName("PKID");
+
+                // UserName (varchar(50), null)
+                entity.Property(e => e.UserName)
+                    .HasMaxLength(50)
+                    .HasColumnName("UserName");
+
+                // Password (varchar(100), null)
+                entity.Property(e => e.Passowrd)
+                    .HasMaxLength(100)
+                    .HasColumnName("Password");
+
+                // Admin (bit, not null) with default constraint DF__User__admin__74794A92
+                entity.Property(e => e.admin)
+                    .IsRequired()
+                    .HasDefaultValue(false) // Adjust default value if needed
+                    .HasColumnName("admin");
+            });
+
 
             OnModelCreatingPartial(modelBuilder);
         }

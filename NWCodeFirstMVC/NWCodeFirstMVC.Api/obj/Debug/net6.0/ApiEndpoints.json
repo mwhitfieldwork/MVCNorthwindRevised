@@ -1,5 +1,15 @@
 [
   {
+    "ContainingType": "NWCodeFirstMVC.Api.Controllers.LoginController",
+    "Method": "GetAllProduct",
+    "RelativePath": "api/Login",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "NWCodeFirstMVC.Api.Controllers.OrderHistoryController",
     "Method": "GetOrderHistory",
     "RelativePath": "api/OrderHistory",
