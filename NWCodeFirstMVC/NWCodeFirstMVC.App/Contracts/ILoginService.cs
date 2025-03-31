@@ -1,4 +1,5 @@
-﻿using NWCodeFirstMVC.Domain.Models;
+﻿using Microsoft.AspNetCore.Mvc;
+using NWCodeFirstMVC.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,7 @@ namespace NWCodeFirstMVC.App.Contracts
 {
     public interface ILoginService : IGenericRepository<User>
     {
+        public Task<IActionResult> Authenticate(User userModel);
 
     }
 }
