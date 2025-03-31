@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using NWCodeFirstMVC.App.Contracts;
+using NWCodeFirstMVC.Domain.Dto;
+using NWCodeFirstMVC.Domain.Models;
 using NWCodeFirstMVC.Infrastructure.Services;
 
 namespace NWCodeFirstMVC.Api.Controllers
@@ -23,6 +25,30 @@ namespace NWCodeFirstMVC.Api.Controllers
         public async Task<IActionResult> GetAllProduct()
         {
             var user = await _loginService.GetAllAsync();
+            return Ok(user);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Authentication(User userModel)
+        {
+            try
+            {
+                var user = await _loginService.Authenticate(userModel);
+                if (user == null) return Unauthorized("Invalid credentials.");
+                return Ok(user);
+            }
+            catch (Exception ex)
+            {
+                // Log the exception for debugging
+                return StatusCode(500, "An error occurred while processing your request.");
+            }
+        }
+
+        [HttpPost("AddUser")]
+        public async Task<IActionResult> AddProduct(User createUser)
+        {
+            var user = mapper.Map<User>(createUser);
+            var results = await _loginService.AddAsync(user);
             return Ok(user);
         }
     }

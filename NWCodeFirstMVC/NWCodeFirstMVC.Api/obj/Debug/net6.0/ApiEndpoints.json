@@ -10,6 +10,38 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "NWCodeFirstMVC.Api.Controllers.LoginController",
+    "Method": "Authentication",
+    "RelativePath": "api/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userModel",
+        "Type": "NWCodeFirstMVC.Domain.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NWCodeFirstMVC.Api.Controllers.LoginController",
+    "Method": "AddProduct",
+    "RelativePath": "api/Login/AddUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createUser",
+        "Type": "NWCodeFirstMVC.Domain.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "NWCodeFirstMVC.Api.Controllers.OrderHistoryController",
     "Method": "GetOrderHistory",
     "RelativePath": "api/OrderHistory",
