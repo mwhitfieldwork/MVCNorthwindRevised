@@ -28,6 +28,19 @@ namespace NWCodeFirstMVC.Api.Controllers
             return Ok(user);
         }
 
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetUser(int id)
+        {
+            var user = await _loginService.GetAsync(id);
+
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(user);
+        }
+
         [HttpPost]
         public async Task<IActionResult> Authentication(User userModel)
         {

@@ -7,12 +7,20 @@
       "RelativeMoniker": "D:0:0:{198143C2-C95D-4432-9CDF-2CD79A8080FD}|NWCodeFirstMVC.Api\\NWCodeFirstMVC.Api.csproj|solutionrelative:nwcodefirstmvc.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{071BC6DF-D231-45DB-9B86-D8240A1AEBE7}|NWCodeFirstMVC.Infrastructure\\NWCodeFirstMVC.Infrastructure.csproj|c:\\users\\whitf\\practice\\backend\\codefirstmvcnorthwind\\nwcodefirstmvc\\nwcodefirstmvc.infrastructure\\services\\genericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{071BC6DF-D231-45DB-9B86-D8240A1AEBE7}|NWCodeFirstMVC.Infrastructure\\NWCodeFirstMVC.Infrastructure.csproj|solutionrelative:nwcodefirstmvc.infrastructure\\services\\genericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{198143C2-C95D-4432-9CDF-2CD79A8080FD}|NWCodeFirstMVC.Api\\NWCodeFirstMVC.Api.csproj|c:\\users\\whitf\\practice\\backend\\codefirstmvcnorthwind\\nwcodefirstmvc\\nwcodefirstmvc.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{198143C2-C95D-4432-9CDF-2CD79A8080FD}|NWCodeFirstMVC.Api\\NWCodeFirstMVC.Api.csproj|solutionrelative:nwcodefirstmvc.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{071BC6DF-D231-45DB-9B86-D8240A1AEBE7}|NWCodeFirstMVC.Infrastructure\\NWCodeFirstMVC.Infrastructure.csproj|c:\\users\\whitf\\practice\\backend\\codefirstmvcnorthwind\\nwcodefirstmvc\\nwcodefirstmvc.infrastructure\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{071BC6DF-D231-45DB-9B86-D8240A1AEBE7}|NWCodeFirstMVC.Infrastructure\\NWCodeFirstMVC.Infrastructure.csproj|solutionrelative:nwcodefirstmvc.infrastructure\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{071BC6DF-D231-45DB-9B86-D8240A1AEBE7}|NWCodeFirstMVC.Infrastructure\\NWCodeFirstMVC.Infrastructure.csproj|c:\\users\\whitf\\practice\\backend\\codefirstmvcnorthwind\\nwcodefirstmvc\\nwcodefirstmvc.infrastructure\\services\\genericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{071BC6DF-D231-45DB-9B86-D8240A1AEBE7}|NWCodeFirstMVC.Infrastructure\\NWCodeFirstMVC.Infrastructure.csproj|solutionrelative:nwcodefirstmvc.infrastructure\\services\\genericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198143C2-C95D-4432-9CDF-2CD79A8080FD}|NWCodeFirstMVC.Api\\NWCodeFirstMVC.Api.csproj|c:\\users\\whitf\\practice\\backend\\codefirstmvcnorthwind\\nwcodefirstmvc\\nwcodefirstmvc.api\\nwcodefirstmvc.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{198143C2-C95D-4432-9CDF-2CD79A8080FD}|NWCodeFirstMVC.Api\\NWCodeFirstMVC.Api.csproj|solutionrelative:nwcodefirstmvc.api\\nwcodefirstmvc.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{31F69EB1-9D95-401F-A5DC-3818640C1D40}|NWCodeFirstMVC.App\\NWCodeFirstMVC.App.csproj|c:\\users\\whitf\\practice\\backend\\codefirstmvcnorthwind\\nwcodefirstmvc\\nwcodefirstmvc.app\\contracts\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,11 +38,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NWCodeFirstMVC.Api",
+              "DocumentMoniker": "C:\\Users\\whitf\\Practice\\backend\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Api\\NWCodeFirstMVC.Api.csproj",
+              "RelativeDocumentMoniker": "NWCodeFirstMVC.Api\\NWCodeFirstMVC.Api.csproj",
+              "ToolTip": "C:\\Users\\whitf\\Practice\\backend\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Api\\NWCodeFirstMVC.Api.csproj",
+              "RelativeToolTip": "NWCodeFirstMVC.Api\\NWCodeFirstMVC.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-01T14:34:44.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\whitf\\Practice\\backend\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Api\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "NWCodeFirstMVC.Api\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\whitf\\Practice\\backend\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Api\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "NWCodeFirstMVC.Api\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAzwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T22:52:26.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "GenericService.cs",
               "DocumentMoniker": "C:\\Users\\whitf\\Practice\\backend\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Infrastructure\\Services\\GenericService.cs",
               "RelativeDocumentMoniker": "NWCodeFirstMVC.Infrastructure\\Services\\GenericService.cs",
@@ -53,14 +87,14 @@
               "RelativeDocumentMoniker": "NWCodeFirstMVC.Infrastructure\\Services\\LoginService.cs",
               "ToolTip": "C:\\Users\\whitf\\Practice\\backend\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Infrastructure\\Services\\LoginService.cs",
               "RelativeToolTip": "NWCodeFirstMVC.Infrastructure\\Services\\LoginService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAcwBwAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-30T09:26:31.992Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ILoginService.cs",
               "DocumentMoniker": "C:\\Users\\whitf\\Practice\\backend\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.App\\Contracts\\ILoginService.cs",
               "RelativeDocumentMoniker": "NWCodeFirstMVC.App\\Contracts\\ILoginService.cs",
@@ -79,20 +113,20 @@
               "RelativeDocumentMoniker": "NWCodeFirstMVC.Api\\Controllers\\LoginController.cs",
               "ToolTip": "C:\\Users\\whitf\\Practice\\backend\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Api\\Controllers\\LoginController.cs",
               "RelativeToolTip": "NWCodeFirstMVC.Api\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAiwDMAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAcwCgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-29T23:14:57.081Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "CategoryService.cs",
               "DocumentMoniker": "C:\\Users\\whitf\\Practice\\backend\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Infrastructure\\Services\\CategoryService.cs",
               "RelativeDocumentMoniker": "NWCodeFirstMVC.Infrastructure\\Services\\CategoryService.cs",
               "ToolTip": "C:\\Users\\whitf\\Practice\\backend\\CodeFirstMVCNorthwind\\NWCodeFirstMVC\\NWCodeFirstMVC.Infrastructure\\Services\\CategoryService.cs",
               "RelativeToolTip": "NWCodeFirstMVC.Infrastructure\\Services\\CategoryService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBJwBAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T13:46:17.185Z",
               "EditorCaption": ""

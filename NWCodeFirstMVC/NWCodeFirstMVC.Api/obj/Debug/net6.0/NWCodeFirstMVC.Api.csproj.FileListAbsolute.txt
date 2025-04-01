@@ -591,3 +591,4 @@ C:\Users\whitf\Practice\backend\CodeFirstMVCNorthwind\NWCodeFirstMVC\NWCodeFirst
 C:\Users\whitf\Practice\backend\CodeFirstMVCNorthwind\NWCodeFirstMVC\NWCodeFirstMVC.Api\obj\Debug\net6.0\NWCodeFirstMVC.Api.pdb
 C:\Users\whitf\Practice\backend\CodeFirstMVCNorthwind\NWCodeFirstMVC\NWCodeFirstMVC.Api\obj\Debug\net6.0\NWCodeFirstMVC.Api.genruntimeconfig.cache
 C:\Users\whitf\Practice\backend\CodeFirstMVCNorthwind\NWCodeFirstMVC\NWCodeFirstMVC.Api\obj\Debug\net6.0\ref\NWCodeFirstMVC.Api.dll
+C:\Users\whitf\Practice\backend\CodeFirstMVCNorthwind\NWCodeFirstMVC\NWCodeFirstMVC.Api\bin\Debug\net6.0\BCrypt.Net-Next.dll
