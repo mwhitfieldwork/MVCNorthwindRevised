@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BCrypt.Net;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.CodeAnalysis.Scripting;
 using Microsoft.EntityFrameworkCore;
 using NWCodeFirstMVC.App.Contracts;
 using NWCodeFirstMVC.Domain.Models;
@@ -24,7 +26,7 @@ namespace NWCodeFirstMVC.Infrastructure.Services
             {
                 return new BadRequestObjectResult("Invalid input data.");
             }
-
+            //userModel.Passowrd = BCrypt.Net.BCrypt.HashPassword(userModel.Passrd);
             var userDetails = await _dc.User
             .FirstOrDefaultAsync(x => x.UserName == userModel.UserName && x.Passowrd == userModel.Passowrd);
 
