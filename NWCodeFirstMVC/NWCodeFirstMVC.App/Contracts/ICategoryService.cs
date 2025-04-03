@@ -11,5 +11,9 @@ namespace NWCodeFirstMVC.App.Contracts
     public  interface ICategoryService:IGenericRepository<Category>
     {
         Task<List<SalesByCategoryDTO>> GetSalesByCategory(string categoryName, string orderYear);
+
+        Task<List<CustomerOrderDTO>> GetCustomerOrders(string customerId);
+
+        Task<List<DistinctCustomerDTO>> GetTopCustomersAsync();
     }
 }

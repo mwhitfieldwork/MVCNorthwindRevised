@@ -119,6 +119,22 @@
   },
   {
     "ContainingType": "NWCodeFirstMVC.Api.Controllers.CategoryController",
+    "Method": "GetCustomerOrders",
+    "RelativePath": "Category/{categoryId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NWCodeFirstMVC.Api.Controllers.CategoryController",
     "Method": "GetSalesByCategory",
     "RelativePath": "Category/{categoryName},{orderYear}",
     "HttpMethod": "GET",
@@ -136,6 +152,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NWCodeFirstMVC.Api.Controllers.CategoryController",
+    "Method": "GetTopCustomersAsync",
+    "RelativePath": "Category/TopCustomers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
