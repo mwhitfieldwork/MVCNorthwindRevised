@@ -37,6 +37,23 @@ namespace NWCodeFirstMVC.Api.Controllers
         }
 
 
+        [HttpGet("{categoryId}")]
+        public async Task<IActionResult> GetCustomerOrders(string categoryId)
+        {
+            var categoryOrders = await categoryService.GetCustomerOrders(categoryId);
+            var categoryOrdersDto = mapper.Map<List<CustomerOrderDTO>>(categoryOrders);
+            return Ok(categoryOrdersDto);
+        }
+
+
+        [HttpGet("TopCustomers")]
+        public async Task<IActionResult> GetTopCustomersAsync()
+        {
+            var topCustomers = await categoryService.GetTopCustomersAsync();
+            var topCustomersDto = mapper.Map<List<DistinctCustomerDTO>>(topCustomers);
+            return Ok(topCustomersDto);
+        }
+       
         /*
         // GET: CategoryController/Details/5
         public ActionResult Details(int id)
