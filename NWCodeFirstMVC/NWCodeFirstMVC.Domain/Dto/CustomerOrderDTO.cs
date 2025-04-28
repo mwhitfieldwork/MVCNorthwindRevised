@@ -24,6 +24,9 @@ namespace NWCodeFirstMVC.Domain.Dto
         public decimal UnitPrice { get; set; }
 
         [DataMember]
+        public decimal Quantity { get; set; }
+
+        [DataMember]
         public System.DateTime? OrderDate { get; set; } = null!;
     }
 }
