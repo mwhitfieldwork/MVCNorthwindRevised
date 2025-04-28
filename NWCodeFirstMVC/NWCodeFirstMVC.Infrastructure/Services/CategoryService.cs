@@ -88,6 +88,7 @@ namespace NWCodeFirstMVC.Infrastructure.Services
                             ProductName = temp.p.ProductName,
                             ProductID = temp.p.ProductId,
                             CategoryName = ca.CategoryName,
+                            Quantity = temp.o.Quantity,
                             UnitPrice = temp.o.UnitPrice,
                             OrderDate = temp.od.OrderDate
                         })

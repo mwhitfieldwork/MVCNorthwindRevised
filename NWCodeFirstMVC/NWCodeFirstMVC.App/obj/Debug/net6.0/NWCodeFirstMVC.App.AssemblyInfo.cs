@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NWCodeFirstMVC.App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d750c27dc183a46f60869e5684e5b79583c9206c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eeda8baa9c52b8f6350a172dc8804db92377d3f5")]
 [assembly: System.Reflection.AssemblyProductAttribute("NWCodeFirstMVC.App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NWCodeFirstMVC.App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
