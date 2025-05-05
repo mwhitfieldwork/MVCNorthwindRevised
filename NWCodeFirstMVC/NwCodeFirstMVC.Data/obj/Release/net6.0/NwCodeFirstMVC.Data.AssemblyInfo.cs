@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NwCodeFirstMVC.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8db3759b7c5838bcb7467383e21632ce070bb45e")]
 [assembly: System.Reflection.AssemblyProductAttribute("NwCodeFirstMVC.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NwCodeFirstMVC.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
