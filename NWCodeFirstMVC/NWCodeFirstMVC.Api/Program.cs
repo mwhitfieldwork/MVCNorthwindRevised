@@ -28,6 +28,14 @@ builder.Services.AddCors(options =>
         .AllowAnyOrigin()
         .AllowAnyMethod());
 });
+
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ListenAnyIP(5003);
+    options.ListenAnyIP(7216, listenOptions => listenOptions.UseHttps());
+});
+
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddScoped<ILoginService, LoginService>();
 builder.Services.AddScoped<IOrderHistory, OrderHistoryService>();
@@ -45,12 +53,10 @@ NLog.LogManager.Setup().LoadConfiguration(builder => {
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
+
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+
 
 app.UseHttpsRedirection();
 app.UseCors("AllowAll");

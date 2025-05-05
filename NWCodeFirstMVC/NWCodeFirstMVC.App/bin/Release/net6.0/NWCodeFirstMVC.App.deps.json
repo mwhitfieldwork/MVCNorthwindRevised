@@ -1340,7 +1340,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0"
         },
         "runtime": {
-          "NWCodeFirstMVC.Domain.dll": {}
+          "NWCodeFirstMVC.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
