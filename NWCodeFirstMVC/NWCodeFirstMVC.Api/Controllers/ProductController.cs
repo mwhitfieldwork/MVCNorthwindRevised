@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Build.Framework;
 using Microsoft.EntityFrameworkCore;
 using NWCodeFirstMVC.App.Contracts;
 using NWCodeFirstMVC.Domain;
@@ -26,21 +27,38 @@ namespace NWCodeFirstMVC.Api.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAllProduct()
             {
-            var products = await _productService.GetAllAsync();
-            return Ok(products);
+                try
+                {
+                    var products = await _productService.GetAllAsync();
+                    return Ok(products);
+                }
+                catch (Exception ex)
+                {
+                    // Log the exception (Serilog, ILogger, etc.)
+                    //ILogger.LogError(ex, "Failed to retrieve products");
+
+                    return StatusCode(500, "An unexpected error occurred while retrieving products.");
+                }
         }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetAProduct(int id)
         {
-            var product = await _productService.GetAsync(id);
-
-            if (product == null)
+            try
             {
-                return NotFound();
-            }
+                var product = await _productService.GetAsync(id);
 
-            return Ok(product);
+                if (product == null)
+                {
+                    return NotFound();
+                }
+
+                return Ok(product);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "An unexpected error occurred while retrieving products.");
+            }
         }
 
         /*

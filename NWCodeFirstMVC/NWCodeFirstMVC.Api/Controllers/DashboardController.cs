@@ -4,6 +4,7 @@ using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using NWCodeFirstMVC.App.Contracts;
 using NWCodeFirstMVC.Domain.Dto;
+using NWCodeFirstMVC.Infrastructure.Services;
 
 namespace NWCodeFirstMVC.Api.Controllers
 {
@@ -20,6 +21,14 @@ namespace NWCodeFirstMVC.Api.Controllers
             this.dashboardService = dashboardService;
             this.mapper = mapper;
         }
+        [HttpGet("totals")]
+        public async Task<IActionResult> GetTopCardValues()
+        {
+            var totals = await dashboardService.GetAllTopCardTotals();
+            return Ok(totals);
+
+        }
+
         // GET: CategoryController
         [HttpGet]
         public async Task<IActionResult> GetAllCategories()

@@ -175,6 +175,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "NWCodeFirstMVC.Api.Controllers.DashboardController",
+    "Method": "GetTopCardValues",
+    "RelativePath": "Dashboard/totals",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "NWCodeFirstMVC.Api.Controllers.EmployeeController",
     "Method": "GetAllEmployees",
     "RelativePath": "Employee",
