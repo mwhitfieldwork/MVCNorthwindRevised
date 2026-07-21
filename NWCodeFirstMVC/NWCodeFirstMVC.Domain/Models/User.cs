@@ -13,5 +13,8 @@ namespace NWCodeFirstMVC.Domain.Models
         public string? Passowrd { get; set; }
 
         public bool admin { get; set; }
+
+        public string? firstName { get; set; }
+        public string? occupation { get; set; }
     }
 }

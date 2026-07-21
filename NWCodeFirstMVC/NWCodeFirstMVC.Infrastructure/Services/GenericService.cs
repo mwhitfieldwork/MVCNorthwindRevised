@@ -66,6 +66,11 @@ namespace NWCodeFirstMVC.Infrastructure.Services
             {
                 return null;
             }
+
+            // Force a 500 for testing
+            if (id == 999)
+                throw new Exception("Forced test exception for 500 response");
+
             return await _dc.Set<T>().FindAsync(id);
         }
 
